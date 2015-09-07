@@ -1,0 +1,23 @@
+
+<resources>
+    <color name="backgroundlayout">#f7f7f7</color>
+    <color name="background">#E1F5FE</color>
+    <color name="green">#1A9C56</color>
+    <color name="text_color">#7F7F7F</color>
+    <color name="green_dark">#157E46</color>
+
+
+
+    <color name="primary">#DC3E39</color>
+    <color name="primary_foreground">#88bebebe</color>
+    <color name="primary_dark">#303f9f</color>
+    <color name="ripple">#DC3E52</color>
+    <color name="accent">#DC3E56</color>
+    <color name="accent_pressed">#C2185B</color>
+    <color name="orangebesk">#fff770</color>
+    <color name="orange">#FF9900</color>
+    <color name="green_refresh">#009900</color>
+    <color name="whitecol">#fffff1f3</color>
+    <color name="blue">#000099</color>
+    <color name="glob">#03A9F4</color>
+</resources>

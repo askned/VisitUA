@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">Travel Ukraine Kiev</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="glavotdel">Maidan Nezalezhnosti</string>
+    <string name="aboutus">About Us</string>
+
+    <string name="metromap">Subway map</string>
+    <string name="facebook_app_id" translatable="false">874921642593690</string>
+    <string name="callbutton">Call</string>
+    <string name="about" translatable="false">Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.</string>
+    <string name="usefukll">Useful phone numbers</string>
+
+    <string name="textmain"><![CDATA[
+<p>Project <b>Travel Ukraine Kiev</b> created, for that would make your trip to Ukraine as comfortable as possible. The app is updated monthly, and every day it becomes more and more interesting. This proposal is developed voluntarily on this app, please tell your friends and layknut our page.</p>
+    ]]></string>
+    <string name="razgovornik">Phrasebook</string>
+    <string name="marshruty">Tourist routes</string>
+    <string name="kievmap">Map</string>
+    <string name="usefull">Useful phone numbers</string>
+    <string name="taxikv1">Taxi Kiev</string>
+    <string name="taxikv2">Taxi Kiev 2</string>
+    <string name="taxikv3">Taxi Kiev 3</string>
+    <string name="privatdoc">Private Ambulance 1</string>
+    <string name="privatdoc2">Private Ambulance 2</string>
+    <string name="callmedic">Ambulance</string>
+    <string name="callpizza">Pizza delivery</string>
+    <string name="callpolice">Police</string>
+    <string name="firedept">Fire Department</string>
+    <string name="informationcall">Information Service</string>
+    <string name="callairoport">Borispol airport</string>
+    <string name="Phrase">Small Text</string>
+    <string name="discount">Discounts</string>
+    <string name="цуддиуыщщт">Coming soon!</string>
+
+</resources>
