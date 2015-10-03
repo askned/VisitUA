@@ -3,10 +3,14 @@
     <style name="Material"></style>
 
     <style name="Material.Widget"></style>
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-    </style>
+
     <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#3f51b5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#00bcd4</item>
+    </style>
+
 
     <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
         <!-- colorPrimary is used, for instance, for the default ActionBar
@@ -84,5 +88,9 @@
         <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Button</item>
         <item name="android:textColor">@color/abc_primary_text_material_dark</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

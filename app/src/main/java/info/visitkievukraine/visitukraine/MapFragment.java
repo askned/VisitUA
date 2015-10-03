@@ -24,6 +24,8 @@ import com.google.maps.android.PolyUtil;
 
 import java.util.List;
 
+import info.visitkievukraine.visitukraine.R;
+
 @EFragment
 public class MapFragment extends Fragment {
 

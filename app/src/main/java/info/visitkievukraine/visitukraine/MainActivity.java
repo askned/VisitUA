@@ -1,5 +1,6 @@
 package info.visitkievukraine.visitukraine;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -89,11 +90,7 @@ public class MainActivity extends ActionBarActivity {
         drawerToggle.syncState();
     }
 
-    public void onClickCalculate(View view) {
-        setTitle(getString(R.string.aboutus));
-        getFragmentManager().beginTransaction().replace(R.id.content_frame, CostCalculateFragment_.builder().build()).commit();
 
-    }
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
@@ -132,8 +129,7 @@ public class MainActivity extends ActionBarActivity {
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
                     setTitle(getString(R.string.kievmap));
-                    //      setContentView(R.layout.activity_map_fragment);
-                    //     addMapFragment();     break;
+
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, MapFragment_.builder().build()).commit();
                     break;
 
@@ -158,7 +154,10 @@ public class MainActivity extends ActionBarActivity {
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
                     setTitle(getString(R.string.beforArrive));
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame, BeforVisitFragment_.builder().build()).commit();
+
+                    //   getFragmentManager().beginTransaction().replace(R.id.content_frame, BeforVisitFragment_.builder().build()).commit();
+                    Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
+                    startActivity(intent);
                     break;
             }
         }
