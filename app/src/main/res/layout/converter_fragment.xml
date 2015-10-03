@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textInuah"
+        android:id="@+id/grn_label"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="10"
+        android:layout_below="@id/grn_label"
+        android:id="@+id/name_label"
+        android:numeric="integer"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textKonvertVal"
+        android:id="@+id/val_label"
+        android:layout_below="@id/name_label"
+        android:layout_gravity="center_horizontal" />
+
+    <Spinner
+        android:layout_width="@dimen/spinerValHeihght"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/val_label"
+        android:id="@+id/spinnerval">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/TextCurs"
+        android:id="@+id/cost_label"
+        android:layout_below="@id/spinnerval"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pressButton"
+
+        android:id="@+id/description_label"
+        android:layout_below="@id/cost_label"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margintext" />
+
+    <com.rey.material.widget.FloatingActionButton
+        android:layout_gravity="bottom|right"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_iconSrc="@drawable/calculate"
+        android:id="@+id/parsbutt"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

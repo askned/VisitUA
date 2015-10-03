@@ -35,4 +35,23 @@
     <string name="discount">Discounts</string>
     <string name="цуддиуыщщт">Coming soon!</string>
 
+    <string name="one">One</string>
+    <string name="in">In</string>
+    <string name="equal">Is Equal To</string>
+    <string name="result">Click Calculate for Result</string>
+    <string name="calculate">Calculate</string>
+    <string name="curenccyConvet">Конвертер валют</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="metrokiev">Карота метро Киева</string>
+    <string name="metrokharkov">Карота метро Харькова</string>
+    <string name="textInuah">Введите сумму в гривнах:</string>
+    <string name="textKonvertVal">Выберите валюту для ковертации:</string>
+    <string name="TextCurs">Курс:</string>
+    <string name="pressButton">Нажмите на кнопку ниже</string>
+    <string name="cursLabel">"Курс: "</string>
+    <string name="summaLabel">"Сумма:  "</string>
+    <string name="beforArrive">Перед прибытием</string>
 </resources>

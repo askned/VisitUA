@@ -1,29 +1,21 @@
 package info.visitkievukraine.visitukraine;
 
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
+import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
-import com.melnykov.fab.FloatingActionButton;
 
 import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
-import org.androidannotations.annotations.rest.RestService;
 
 @EActivity(R.layout.activity_main)
 public class MainActivity extends ActionBarActivity {
@@ -48,7 +40,8 @@ public class MainActivity extends ActionBarActivity {
     void ready() {
         FacebookSdk.sdkInitialize(getApplicationContext());
 
-        String[] navigationData = new String[]{getString(R.string.aboutus), getString(R.string.metromap), getString(R.string.usefull), getString(R.string.kievmap), getString(R.string.razgovornik), getString(R.string.marshruty),getString(R.string.discount)};
+        String[] navigationData = new String[]{
+                getString(R.string.aboutus), getString(R.string.curenccyConvet), getString(R.string.metromap), getString(R.string.usefull), getString(R.string.kievmap), getString(R.string.razgovornik), getString(R.string.marshruty), getString(R.string.beforArrive)};
         ArrayAdapter<String> navigationDrawerAdapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, navigationData);
         left_drawer.setAdapter(navigationDrawerAdapter);
         left_drawer.setOnItemClickListener(new DrawerItemClickListener());
@@ -84,6 +77,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
+
     @Override
     public void setTitle(CharSequence title) {
         super.setTitle(title);
@@ -93,6 +87,12 @@ public class MainActivity extends ActionBarActivity {
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         drawerToggle.syncState();
+    }
+
+    public void onClickCalculate(View view) {
+        setTitle(getString(R.string.aboutus));
+        getFragmentManager().beginTransaction().replace(R.id.content_frame, CostCalculateFragment_.builder().build()).commit();
+
     }
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
@@ -110,10 +110,16 @@ public class MainActivity extends ActionBarActivity {
                 case 1:
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.metromap));
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame, MetroFragment_.builder().build()).commit();
+                    setTitle(getString(R.string.curenccyConvet));
+                    getFragmentManager().beginTransaction().replace(R.id.content_frame, NbuFragment_.builder().build()).commit();
                     break;
                 case 2:
+                    left_drawer.setItemChecked(position, true);
+                    drawerLayout.closeDrawer(left_drawer);
+                    setTitle(getString(R.string.metrokiev));
+                    getFragmentManager().beginTransaction().replace(R.id.content_frame, MetroFragment_.builder().build()).commit();
+                    break;
+                case 3:
 
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
@@ -121,7 +127,7 @@ public class MainActivity extends ActionBarActivity {
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, UsefullNumberFragment_.builder().build()).commit();
                     break;
 
-                case 3:
+                case 4:
 
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
@@ -131,7 +137,7 @@ public class MainActivity extends ActionBarActivity {
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, MapFragment_.builder().build()).commit();
                     break;
 
-                case 4:
+                case 5:
 
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
@@ -139,7 +145,7 @@ public class MainActivity extends ActionBarActivity {
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, PhraseFragment_.builder().build()).commit();
                     break;
 
-                case 5:
+                case 6:
 
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
@@ -147,12 +153,12 @@ public class MainActivity extends ActionBarActivity {
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, WillBeFragment_.builder().build()).commit();
                     break;
 
-                case 6:
+                case 7:
 
                     left_drawer.setItemChecked(position, true);
                     drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.discount));
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame, WillBeFragment_.builder().build()).commit();
+                    setTitle(getString(R.string.beforArrive));
+                    getFragmentManager().beginTransaction().replace(R.id.content_frame, BeforVisitFragment_.builder().build()).commit();
                     break;
             }
         }
