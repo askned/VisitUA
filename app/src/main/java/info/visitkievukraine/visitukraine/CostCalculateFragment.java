@@ -68,7 +68,7 @@ public class CostCalculateFragment extends Fragment implements CompoundButton.On
 
 
                 Integer summall = days * (homecost + fudcost + costtransp) + costnclub;
-                sumtext.setText("Сумма: " + String.valueOf(summall) + " $");
+                sumtext.setText(getString(R.string.summatex) + String.valueOf(summall) + " $");
             }
         });
 

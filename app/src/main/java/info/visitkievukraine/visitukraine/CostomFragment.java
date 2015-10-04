@@ -21,7 +21,7 @@ public class CostomFragment extends Fragment {
 
     @AfterViews
     void ready() {
-        textItem.setText("Таможня тамод");
+        textItem.setText(R.string.customText);
 
 
     }

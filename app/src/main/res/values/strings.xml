@@ -34,29 +34,29 @@
     <string name="Phrase">Small Text</string>
     <string name="discount">Discounts</string>
     <string name="цуддиуыщщт">Coming soon!</string>
-
-    <string name="one">One</string>
+    <string name="summatex">"Amount: "</string>
+    <string name="one" translatable="false">One</string>
     <string name="in">In</string>
-    <string name="equal">Is Equal To</string>
-    <string name="result">Click Calculate for Result</string>
+    <string name="equal" translatable="false">Is Equal To</string>
+    <string name="result" translatable="false">Click Calculate for Result</string>
     <string name="calculate">Calculate</string>
-    <string name="curenccyConvet">Конвертер валют</string>
+    <string name="curenccyConvet">Currency converter</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="metrokiev">Карота метро Киева</string>
-    <string name="metrokharkov">Карота метро Харькова</string>
-    <string name="textInuah">Введите сумму в гривнах:</string>
-    <string name="textKonvertVal">Выберите валюту для ковертации:</string>
-    <string name="TextCurs">Курс:</string>
-    <string name="pressButton">Нажмите на кнопку ниже</string>
-    <string name="cursLabel">"Курс: "</string>
-    <string name="summaLabel">"Сумма:  "</string>
-    <string name="beforArrive">Перед прибытием</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="metrokiev">Subway map of Kiev</string>
+    <string name="metrokharkov">Subway map of Kharkov</string>
+    <string name="textInuah">Enter the amount in UAH:</string>
+    <string name="textKonvertVal">Select a currency for conversion:</string>
+    <string name="TextCurs">Rate:</string>
+    <string name="pressButton">Click on the button below</string>
+    <string name="cursLabel">"Rate: "</string>
+    <string name="summaLabel">"Amount:  "</string>
+    <string name="beforArrive">Before arriving</string>
 
     <string name="about2" translatable="false">Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.</string>
-    <string name="title_activity_scrolling">Перед прибытием</string>
+    <string name="title_activity_scrolling">Before arriving</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -84,6 +84,90 @@
 
             "Components with responsive elevations may encounter other components as they move between ""their resting elevations and dynamic elevation offsets. Because material cannot pass ""through other material, components avoid interfering with one another any number of ways, ""whether on a per component basis or using the entire app layout.\n""On a component level, components can move or be removed before they cause interference. ""For example, a floating action button (FAB) can disappear or move off screen before a ""user picks up a card, or it can move if a snackbar appears.\n""On the layout level, design your app layout to minimize opportunities for interference. ""For example, position the FAB to one side of stream of a cards so the FAB won’t interfere ""when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="imigrationText">"The immigration card is a document that confirms legality of a foreigner's stay on the territory of Ukraine.\n
+        It has to be filled in while entering Ukraine. You should give one part of the form to the customs officer, and keep the other one, then give it to the customs officer while leaving Ukraine.\n
+        The lack of the immigration card may be the basis for imposing a fine (extracting a bribe) by a customs officer on the border or the police on the whole territory of Ukraine.\n\n
+
+        How to fill in\n
+        The field meant for the immigration card's number should be left empty\n
+        1. Last name\n
+        2. First name\n
+        3. Citizenship\n
+        4. Date of birth\n
+        5. Sex\n
+        6. Passport no.\n
+        7. If travelling to Ukraine - should be left empty, if transiting to another country - entering the destination country's visa no. may be required\n
+        8. Children (the ones that accompany you during the trip) - first names and dates of birth\n
+        9. Purpose of the journey - TURYZM (ТУРИЗМ, TOURISM) or TRANZYT (ТРАНЗИТ, TRANSIT)\n
+        10. City, name (and address) of the hotel / hostel (you can enter anything, the data will not be verified)\n
+        11. Vehicle registration no. (only when travelling by car)\n
+        12. Signature\n\n
+        Caution! Both sides of the form should be filled in. Pay attention that some field numbers from the right side are different from those from the left side.\n
+        Example:"
+</string>
+    <string name="allInfromText">Will be soon</string>
+    <string name="comunicationText">"During your stay in another country it is very important to know about its communications system in order to stay in contact with your family and friends back home, as well as to stay in touch with people in the country, itself. Ukraine's communications system is generally well-developed in the bigger cities and main tourist areas. It's not a problem nowadays to find Internet in Ukraine in the major cities, but still could be difficult in the smaller towns and villages. You'll be able to find Internet cafés throughout big cities. you'll be able to use Internet in some public places with Wi-Fi access: restaurants, cafes, airports, train stations, hotels. They will usually have a Wi-Fi sign on the window or somewhere else.\n\n
+        Mobile\n
+        There are several companies serving cellular connection in Ukraine:\n\n
+
+        GSM: Kyivstar GSM, MTC Life :)\n
+        CDMA: CDMA Ukraine, Intertelecom, PEOPLE Net, U'TEL (Ukrtelecom)\n\n
+
+        If your operator works in one of the mentioned above standards, most probably you will be able to use your cell phone in Ukraine as well. Please, find all details from your local cellular provider.\n\n
+
+        Be aware, that international roaming is quite expensive in Ukraine.\n
+        we highly recommend you on arrival to buy a SIM card from the mobile operators with 3G internet(Kyivstar, MTC Life ) for that would comfortably to Use our application and make your journey more comfortable
+        "</string>
+
+    <string name="customText">"Customs Clearance \n
+        Ukraine operates a Red and Green customs system.  Non-residents arriving into Ukraine may use the Green channel provided they are carrying no more than:\n\n
+        EUR10,000 in cash\n
+        1 litre of spirits\n
+        2 litres of wine\n
+        5 litres of beer\n
+        200 cigarettes OR 250 grams of tobacco OR 50 cigars\n
+        Food products for personal use valued up to EUR50\n
+        Do not transport any meat products into Ukraine – these are not allowed into the country.\n
+        This summary is informational only and rules are subject to change.  It is a passenger's responsibility to comply with all Customs and Immigration laws.  For current information, please
+        "</string>
+    <string name="kartakiev">Subway map of Kiev</string>
+    <string name="visaText">"Ukraine has a generous visa-waiver program for travellers coming into the country as tourists for stays of UP TO 90 DAYS. Citizens holding passports from the following countries do not need a visa (the list below may not be complete, please check with your embassy):\n\n
+        Armenia\n
+        Azerbaijan\n
+        Principality of Andorra\n
+        Canada\n
+        European Union\n
+        Republic of Iceland\n
+        Republic of Belarus\n
+        Japan\n
+        Principality of Liechtenstein\n
+        Principality of Monaco\n
+        Norway\n
+        Republic of San Marino\n
+        Russian Federation\n
+        Switzerland\n
+        United Kingdom\n
+        United States of America\n
+        Vatican City-State\n
+        CIS citizens and holders of diplomatic, special or business passports of select countries that have entered into special agreements with Ukraine do not require a visa for entry.\n
+        All other foreign citizens require a visa to enter Ukraine.  Please note:  Visas are NOT issued upon arrival and must be obtained in advance through your nearest Embassy of Ukraine. "</string>
+    <string name="calculaTitle">Calculating the cost</string>
+    <string name="calculShirtDescr">Calculate how much your trip will cost</string>
+    <string name="visaTitle">Visa Requirements</string>
+    <string name="visaShort">Do I need to get visa before traveling</string>
+    <string name="customTit">Customs Clearance</string>
+    <string name="CustomShurt">The right to import and export to the territory of Ukraine</string>
+    <string name="imigrateShort">Rules of registration on arrival in the territory of Ukraine</string>
+    <string name="comunisTit">Communication</string>
+    <string name="comunicShort">Mobile telephony and Internet in Ukraine</string>
+    <string name="allinfoTit">General information</string>
+    <string name="allinfoShort">General information about Ukraine</string>
+    <string name="efw" translatable="false">Eclairs</string>
+    <string name="emailsend">askden8@gmail.com</string>
+    <string name="email_subdject">Order Assistance</string>
+    <string name="email_text">I wish ro use yours travel assistance</string>
+    <string name="send_mail">Отправка письма...</string>
+    <string name="imigratTit">Immigration Regulations </string>
 
 
 </resources>

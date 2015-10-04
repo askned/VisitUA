@@ -30,7 +30,7 @@
             android:layout_marginLeft="20dp"
             android:textStyle="bold"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Рачет стоимости" />
+            android:text="@string/calculaTitle" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
             android:layout_marginLeft="20dp"
 
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Расчитать сколько будет стоить ваше путишествие" />
+            android:text="@string/calculShirtDescr" />
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -63,7 +63,7 @@
             android:layout_marginLeft="20dp"
             android:textStyle="bold"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Визовая политика" />
+            android:text="@string/visaTitle" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
             android:layout_marginLeft="20dp"
 
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Необходимо ли будет вам оформлять визу перед поездкой" />
+            android:text="@string/visaShort" />
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -96,7 +96,7 @@
             android:layout_marginLeft="20dp"
             android:textStyle="bold"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Таможенное оформление" />
+            android:text="@string/customTit" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -107,7 +107,7 @@
             android:layout_marginLeft="20dp"
 
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Правило ввоза и вывоза на територию Украины" />
+            android:text="@string/CustomShurt" />
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -128,7 +128,7 @@
             android:layout_marginLeft="20dp"
             android:textStyle="bold"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Иммиграционные правила" />
+            android:text="@string/imigratTit" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -139,7 +139,7 @@
             android:layout_marginLeft="20dp"
 
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Правила оформления по прибытию на територию Украины" />
+            android:text="@string/imigrateShort" />
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -161,7 +161,7 @@
             android:layout_marginLeft="20dp"
             android:textStyle="bold"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Средства связи" />
+            android:text="@string/comunisTit" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -172,7 +172,7 @@
             android:layout_marginLeft="20dp"
 
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Мобильная связь и интернет в Украине" />
+            android:text="@string/comunicShort" />
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -193,7 +193,7 @@
             android:layout_marginLeft="20dp"
             android:textStyle="bold"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Общая информация" />
+            android:text="@string/allinfoTit" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -203,7 +203,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Общая информация про Украину" />
+            android:text="@string/allinfoShort" />
     </android.support.v7.widget.CardView>
 </RelativeLayout>
 </LinearLayout>

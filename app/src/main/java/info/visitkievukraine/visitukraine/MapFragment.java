@@ -14,17 +14,12 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-
-import org.androidannotations.annotations.EFragment;
-
 import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.maps.android.PolyUtil;
 
-
+import org.androidannotations.annotations.EFragment;
 
 import java.util.List;
-
-import info.visitkievukraine.visitukraine.R;
 
 @EFragment
 public class MapFragment extends Fragment {
@@ -67,7 +62,7 @@ public class MapFragment extends Fragment {
         // adding marker
         googleMap.addMarker(marker);
         CameraPosition cameraPosition = new CameraPosition.Builder()
-                .target(new LatLng(50.450250, 30.52389)).zoom(11).build();
+                .target(new LatLng(50.271044, 30.305148)).zoom(11).build();
         googleMap.animateCamera(CameraUpdateFactory
                 .newCameraPosition(cameraPosition));
         googleMap.getUiSettings().setZoomControlsEnabled(true);

@@ -36,7 +36,7 @@ public class MetroFragment extends Fragment {
             isKiev = false;
         } else {
             imageView.setImage(ImageSource.resource(R.drawable.kiev_map_9));
-            getActivity().setTitle("Карота метро Киева");
+            getActivity().setTitle(getString(R.string.kartakiev));
             isKiev = true;
         }
     }

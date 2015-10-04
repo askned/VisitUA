@@ -6,9 +6,9 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">#3f51b5</item>
-        <item name="colorPrimaryDark">#303F9F</item>
-        <item name="colorAccent">#00bcd4</item>
+        <item name="colorPrimary">@color/amber700</item>
+        <item name="colorPrimaryDark">@color/amber900</item>
+        <item name="colorAccent">@color/amber900</item>
     </style>
 
 
@@ -92,5 +92,10 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MainTheme" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/amber700</item>
+        <item name="colorPrimaryDark">@color/amber900</item>
+    </style>
 
 </resources>

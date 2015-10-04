@@ -21,7 +21,7 @@ public class ComunicationFragment extends Fragment {
 
     @AfterViews
     void ready() {
-        textItem.setText("ComunicationFragment ComunicationFragment ComunicationFragment");
+        textItem.setText(R.string.comunicationText);
 
 
     }

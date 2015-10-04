@@ -21,7 +21,7 @@ public class AllInfoFragment extends Fragment {
 
     @AfterViews
     void ready() {
-        textItem.setText("AllInfoFragment AllInfoFragment AllInfoFragment");
+        textItem.setText(R.string.allInfromText);
 
 
     }
