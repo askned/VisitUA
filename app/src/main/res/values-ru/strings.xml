@@ -51,10 +51,10 @@
     <string name="large_text">4</string>
     <string name="visaText">5</string>
     <string name="visaShort">Необходимо ли будет вам оформлять визу перед поездкой</string>
-    <string name="visaTitle">Визовая политика</string>
+    <string name="visaTitle">Правила въезда</string>
     <string name="imigratTit">Иммиграционные правила</string>
     <string name="imigrateShort">Правила оформления при прибытии на територию Украины</string>
-    <string name="CustomShurt">Правило ввоза и вывоза товаров на територию Украины</string>
+    <string name="CustomShurt">Таможенные правила ввоза личных вещей на территорию  Украины</string>
     <string name="allinfoShort">Общая информация про Украину</string>
     <string name="allinfoTit">Общая информация</string>
     <string name="calculaTitle">Расчет стоимости</string>
