@@ -2,13 +2,13 @@ package info.visitkievukraine.visitukraine;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+import android.view.MenuItem;
 import android.widget.ListView;
 
 import com.facebook.FacebookSdk;
@@ -19,7 +19,8 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 @EActivity(R.layout.activity_main)
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity
+        implements NavigationView.OnNavigationItemSelectedListener {
 
     @ViewById
     Toolbar toolbar;
@@ -31,36 +32,41 @@ public class MainActivity extends ActionBarActivity {
     ListView left_drawer;
 
 
-
-    ActionBarDrawerToggle drawerToggle;
-
-
-
-
     @AfterViews
     void ready() {
         FacebookSdk.sdkInitialize(getApplicationContext());
 
-        String[] navigationData = new String[]{
-                getString(R.string.aboutus), getString(R.string.curenccyConvet), getString(R.string.metromap), getString(R.string.usefull), getString(R.string.kievmap), getString(R.string.razgovornik), getString(R.string.marshruty), getString(R.string.beforArrive)};
-        ArrayAdapter<String> navigationDrawerAdapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, navigationData);
-        left_drawer.setAdapter(navigationDrawerAdapter);
-        left_drawer.setOnItemClickListener(new DrawerItemClickListener());
 
 
         if (toolbar != null) {
             setSupportActionBar(toolbar);
         }
 
-        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.app_name, R.string.app_name);
-        drawerLayout.setDrawerListener(drawerToggle);
-
         getFragmentManager().beginTransaction().replace(R.id.content_frame, new AboutUsFragment_()).commit();
 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
 
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
 
 
     }
+
+    @Override
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+
     @Override
     protected void onPause() {
         super.onPause();
@@ -73,7 +79,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onResume() {
         super.onResume();
 
-        // Logs 'install' and 'app activate' App Events.
         AppEventsLogger.activateApp(this);
 
     }
@@ -87,80 +92,53 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-        drawerToggle.syncState();
+
     }
 
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
 
+        int id = item.getItemId();
 
-    private class DrawerItemClickListener implements ListView.OnItemClickListener {
-        @Override
+        if (id == R.id.nav_aboutus) {
+            setTitle(getString(R.string.aboutus));
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, AboutUsFragment_.builder().build()).commit();
 
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            switch (position) {
-                case 0:
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.aboutus));
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame, AboutUsFragment_.builder().build()).commit();
-                    break;
-
-                case 1:
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.curenccyConvet));
+            // Handle the camera action
+        } else if (id == R.id.nav_beforArrive) {
+            Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
+            startActivity(intent);
+            setTitle(getString(R.string.beforArrive));
+        } else if (id == R.id.nav_curenccyConvet) {
+            setTitle(getString(R.string.curenccyConvet));
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, NbuFragment_.builder().build()).commit();
-                    break;
-                case 2:
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.metrokiev));
+
+        } else if (id == R.id.nav_metromap) {
+            setTitle(getString(R.string.metrokiev));
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, MetroFragment_.builder().build()).commit();
-                    break;
-                case 3:
 
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.usefull));
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame, UsefullNumberFragment_.builder().build()).commit();
-                    break;
+        } else if (id == R.id.nav_usefull) {
+            setTitle(getString(R.string.usefull));
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, UsefullNumberFragment_.builder().build()).commit();
 
-                case 4:
-
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.kievmap));
-
+        } else if (id == R.id.nav_kievmap) {
+            setTitle(getString(R.string.kievmap));
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, MapFragment_.builder().build()).commit();
-                    break;
 
-                case 5:
+        } else if (id == R.id.nav_razgovornik) {
+            setTitle(getString(R.string.razgovornik));
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, PhraseFragment_.builder().build()).commit();
 
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.razgovornik));
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame, PhraseFragment_.builder().build()).commit();
-                    break;
+        } else if (id == R.id.nav_marshruty) {
+            setTitle(getString(R.string.marshruty));
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, WillBeFragment_.builder().build()).commit();
 
-                case 6:
-
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.marshruty));
-                    getFragmentManager().beginTransaction().replace(R.id.content_frame, WillBeFragment_.builder().build()).commit();
-                    break;
-
-                case 7:
-
-                    left_drawer.setItemChecked(position, true);
-                    drawerLayout.closeDrawer(left_drawer);
-                    setTitle(getString(R.string.beforArrive));
-
-                    //   getFragmentManager().beginTransaction().replace(R.id.content_frame, BeforVisitFragment_.builder().build()).commit();
-                    Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
-                    startActivity(intent);
-                    break;
-            }
-        }
     }
 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
+    }
 }
+

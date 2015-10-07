@@ -43,7 +43,8 @@
     <string name="curenccyConvet">Currency converter</string>
 
 
-
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="metrokiev">Subway map of Kiev</string>
     <string name="metrokharkov">Subway map of Kharkov</string>
     <string name="textInuah">Enter the amount in UAH:</string>
