@@ -13,8 +13,9 @@
     <string name="about" translatable="false">Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.</string>
     <string name="usefukll">Useful phone numbers</string>
 
-    <string name="textmain"><![CDATA[
-<p>Project <b>Travel Ukraine Kiev</b> created, for that would make your trip to Ukraine as comfortable as possible. The app is updated monthly, and every day it becomes more and more interesting. This proposal is developed voluntarily on this app, please tell your friends and layknut our page.</p>
+    <string name="textmain"><![CDATA[We are glad to invite you to Ukraine. \n
+<p>Project <b>Travel Ukraine Kiev</b> created, for that would make your trip to Ukraine as comfortable as possible. The app is updated monthly, and every day it becomes more and more interesting. This proposal is developed voluntarily on this app, please tell your friends and layknut our page.</p>\n
+    We hope that you are interested in coming to Ukraine because we would love to have you here in our country.
     ]]></string>
     <string name="razgovornik">Phrasebook</string>
     <string name="marshruty">Tourist routes</string>
@@ -84,11 +85,19 @@
 
             "Components with responsive elevations may encounter other components as they move between ""their resting elevations and dynamic elevation offsets. Because material cannot pass ""through other material, components avoid interfering with one another any number of ways, ""whether on a per component basis or using the entire app layout.\n""On a component level, components can move or be removed before they cause interference. ""For example, a floating action button (FAB) can disappear or move off screen before a ""user picks up a card, or it can move if a snackbar appears.\n""On the layout level, design your app layout to minimize opportunities for interference. ""For example, position the FAB to one side of stream of a cards so the FAB won’t interfere ""when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="imigrationText">"The immigration card is a document that confirms legality of a foreigner's stay on the territory of Ukraine.\n
-        It has to be filled in while entering Ukraine. You should give one part of the form to the customs officer, and keep the other one, then give it to the customs officer while leaving Ukraine.\n
-        The lack of the immigration card may be the basis for imposing a fine (extracting a bribe) by a customs officer on the border or the police on the whole territory of Ukraine.\n\n
+    
+    <string name="imigrationText">"Prior to or upon landing in Ukraine all non-Ukrainian citizens shall complete 
+    an immigration form. Forms are available on-board from our cabin crew or at your arrival 
+    airport.  Fill out both the Arrival and Departure information and present the form to the Ukraine Immigration 
+    Officer at border control. \n
+    The immigration card is a document that confirms legality of a foreigner's 
+    stay on the territory of Ukraine.\n
+         You should give one part of the form to the customs officer, 
+        and keep the other one, then give it to the customs officer while leaving Ukraine.\n
+        The lack of the immigration card may be the basis for imposing a fine (extracting a bribe) by a 
+        customs officer on the border or the police on the whole territory of Ukraine.\n\n
 
-        How to fill in\n
+        <b>How to fill in</b>\n
         The field meant for the immigration card's number should be left empty\n
         1. Last name\n
         2. First name\n
@@ -96,35 +105,56 @@
         4. Date of birth\n
         5. Sex\n
         6. Passport no.\n
-        7. If travelling to Ukraine - should be left empty, if transiting to another country - entering the destination country's visa no. may be required\n
+        7. If travelling to Ukraine - should be left empty, if transiting to another country - entering the 
+        destination country's visa no. may be required\n
         8. Children (the ones that accompany you during the trip) - first names and dates of birth\n
         9. Purpose of the journey - TURYZM (ТУРИЗМ, TOURISM) or TRANZYT (ТРАНЗИТ, TRANSIT)\n
         10. City, name (and address) of the hotel / hostel (you can enter anything, the data will not be verified)\n
         11. Vehicle registration no. (only when travelling by car)\n
         12. Signature\n\n
-        Caution! Both sides of the form should be filled in. Pay attention that some field numbers from the right side are different from those from the left side.\n
+        Caution! Both sides of the form should be filled in. Pay attention that some field numbers from 
+        the right side are different from those from the left side.\n
         Example:"
 </string>
     <string name="allInfromText">
-    "We are glad to invite you to Ukraine. Our country is one of the biggest in Europe and can present its beautiful landscapes, rich culture, ancient history, delicious cuisine and hospitality. \n
+    "We are glad to invite you to Ukraine. Our country is one of the biggest in Europe and can present 
+    its beautiful landscapes, rich culture, ancient history, delicious cuisine and hospitality. \n
 Hryvnia is a national currency of Ukraine. It has been the national currency since September 2, 1996. \n
-Ukraine is abundant in all tourist attractions for travelers eager to learn more about the surrounding world, peoples inhabiting it, their history and folkways. \n
-Boundless steppes, thick forests, groves, towering mountains, warm and caressing seas, wide rivers, cave labyrinths – put together, this cannot but attract tourists. Add to this numerous nature preserves, dendrological parks, rich museum collections, historical and cultural landmarks, unique creations of artisans. \n
-Ukraine has substantial economic potential. The key sector of the economy is industry. It accounts for the greatest part of the national income. Agriculture is important as well. \n
-The time in Kiev is 7 hours later than US Eastern Standard, 2 hours later than Greenwich Mean. Ukraine covers one time zone. Daylight Saving Time is in effect from the first Sunday of April until the last Sunday of October. \n
-We hope that you are interested in coming to Ukraine because we would love to have you here in our country. We invite you to enjoy the hospitality of our communities and the beauty of our landscapes! We invite you to appreciate the economic potential of our country! Welcome to Ukraine!
+Ukraine is abundant in all tourist attractions for travelers eager to learn more about the surrounding world, 
+peoples inhabiting it, their history and folkways. \n
+Boundless steppes, thick forests, groves, towering mountains, warm and caressing seas, wide rivers, cave labyrinths 
+– put together, this cannot but attract tourists. Add to this numerous nature preserves, dendrological parks, 
+rich museum collections, historical and cultural landmarks, unique creations of artisans. \n
+Ukraine has substantial economic potential. The key sector of the economy is industry. It accounts for the 
+greatest part of the national income. Agriculture is important as well. \n
+The time in Kiev is 7 hours later than US Eastern Standard, 2 hours later than Greenwich Mean. Ukraine 
+covers one time zone. Daylight Saving Time is in effect from the first Sunday of April until the last 
+Sunday of October. \n
+We hope that you are interested in coming to Ukraine because we would love to have you here in our country. 
+We invite you to enjoy the hospitality of our communities and the beauty of our landscapes! We invite you to 
+appreciate the economic potential of our country! Welcome to Ukraine!
    " </string>
-    <string name="comunicationText">"During your stay in another country it is very important to know about its communications system in order to stay in contact with your family and friends back home, as well as to stay in touch with people in the country, itself. Ukraine's communications system is generally well-developed in the bigger cities and main tourist areas. It's not a problem nowadays to find Internet in Ukraine in the major cities, but still could be difficult in the smaller towns and villages. You'll be able to find Internet cafés throughout big cities. you'll be able to use Internet in some public places with Wi-Fi access: restaurants, cafes, airports, train stations, hotels. They will usually have a Wi-Fi sign on the window or somewhere else.\n\n
+   
+    <string name="comunicationText">"During your stay in another country it is very important to know about its 
+    communications system in order to stay in contact with your family and friends back home, as well as to stay 
+    in touch with people in the country, itself. Ukraine's communications system is generally well-developed in 
+    the bigger cities and main tourist areas. It's not a problem nowadays to find Internet in Ukraine in the 
+    major cities, but still could be difficult in the smaller towns and villages. You'll be able to find 
+    Internet cafés throughout big cities. you'll be able to use Internet in some public places with Wi-Fi 
+    access: restaurants, cafes, airports, train stations, hotels. They will usually have a Wi-Fi sign on 
+    the window or somewhere else.\n\n
         Mobile\n
         There are several companies serving cellular connection in Ukraine:\n\n
 
         GSM: Kyivstar GSM, MTC Life :)\n
         CDMA: CDMA Ukraine, Intertelecom, PEOPLE Net, U'TEL (Ukrtelecom)\n\n
 
-        If your operator works in one of the mentioned above standards, most probably you will be able to use your cell phone in Ukraine as well. Please, find all details from your local cellular provider.\n\n
+        If your operator works in one of the mentioned above standards, most probably you will be able to 
+        use your cell phone in Ukraine as well. Please, find all details from your local cellular provider.\n\n
 
         Be aware, that international roaming is quite expensive in Ukraine.\n
-        we highly recommend you on arrival to buy a SIM card from the mobile operators with 3G internet(Kyivstar, MTC Life ) for that would comfortably to Use our application and make your journey more comfortable
+        we highly recommend you on arrival to buy a SIM card from the mobile operators with 3G internet(Kyivstar, 
+        MTC Life ) for that would comfortably to Use our application and make your journey more comfortable
         "</string>
 
     <string name="customText">"Customs Clearance \n
