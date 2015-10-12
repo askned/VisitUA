@@ -6,34 +6,31 @@
     <string name="marshruty">Туристические маршруты</string>
     <string name="metromap">Карта метро</string>
     <string name="razgovornik">Разговорник</string>
-    <string name="usefukll">Полезные телефоные номера</string>
+    <string name="usefukll">Полезные телефонные  номера</string>
     <string name="usefull">Полезные телефоны</string>
-    <string name="textmain"><![CDATA[
-    Мы с радостю приглашаем Вас посетить нашу страну.\n
-<p>Проект&nbsp;<b>Travel Ukraine Kiev</b>&nbsp;создан для того что бы сделать ваше путешествие в Украину 
+    <string name="textmain">"Мы с радостью  приглашаем Вас посетить нашу страну.\n
+<p>Проект <b>Travel Ukraine Kiev</b> создан для того что бы сделать ваше путешествие в Украину
 максимально комфортным. Приложение обновляется ежемесячно и с каждым днем становится все интереснее. Данное 
 предложение развивается на добровольных началах по этому; просим рассказать приложение друзьям и лайкнуть 
-нашу страницу.</p>
-
- ]]></string>
-    <string name="callmedic">Скорая помошь</string>
+нашу страницу.</p>"</string>
+    <string name="callmedic">Скорая помощь</string>
     <string name="callpizza">Доставка пиццы</string>
-    <string name="callpolice">Милиция</string>
+    <string name="callpolice">Полиция</string>
     <string name="firedept">Пожарная</string>
     <string name="informationcall">Справочная</string>
-    <string name="privatdoc">Часная клиника 1</string>
-    <string name="privatdoc2">Часная клиника 2</string>
+    <string name="privatdoc">Частная  клиника 1</string>
+    <string name="privatdoc2">Частная  клиника 2</string>
     <string name="taxikv1">Такси Киев</string>
     <string name="taxikv2">Такси Киев 2</string>
     <string name="taxikv3">Такси Киев 3</string>
-    <string name="callairoport">Аерпорт Борисполь</string>
+    <string name="callairoport">Аэропорт  Борисполь</string>
     <string name="discount">Скидки</string>
     <string name="glavotdel">Майдан Независимости</string>
     <string name="цуддиуыщщт">Скоро появится!</string>
     <string name="action_settings">Настройки</string>
     <string name="Phrase">Текс</string>
     <string name="beforArrive">Перед прибытием</string>
-    <string name="calculate">Расчитать</string>
+    <string name="calculate">Рассчитать</string>
     <string name="TextCurs">Курс:</string>
     <string name="curenccyConvet">Конвертер валют</string>
     <string name="cursLabel">"Курс: "</string>
@@ -43,7 +40,7 @@
     <string name="pressButton">Нажмите на кнопку ниже</string>
     <string name="summatex">"Сумма: "</string>
     <string name="summaLabel">"Сумма:  "</string>
-    <string name="textInuah">Введите сумму в гривнах:</string>
+    <string name="textInuah">Введите сумму:</string>
     <string name="textKonvertVal">Выберите валюту для конвертации:</string>
     <string name="title_activity_scrolling">Перед прибытием</string>
     
@@ -63,7 +60,7 @@
 Междугородные и международные переговоры осуществляются со специализированных телефонов-автоматов (также 
 по магнитным карточкам) или с переговорных пунктов. Стоимость 1 минуты разговора с Москвой - около 0,3 доллара США. \n
 <b>Мобильная связь в Украине </b>\n \n
-Роуминг соглашения существуют в большинстве международных мобильных телефонов компании. Локальные опараторы моблиьной связи:\n
+Роуминг соглашения существуют в большинстве международных мобильных телефонов компании. Локальные операторы мобильной:\n
  MTS-UKR +38050, +38066, +38095, +38099\n
     Kyivstar +38067, +38096, +38097, +38098\n
     Life:) +38063, +38093\n
@@ -142,12 +139,33 @@
     <string name="imigratTit">Иммиграционные правила</string>
     <string name="imigrateShort">Правила оформления при прибытии на територию Украины</string>
     <string name="customTit">Таможенное оформление</string>
-    <string name="CustomShurt">Таможенные правила ввоза личных вещей на территорию  Украины</string>
-    <string name="allinfoShort">Общая информация про Украину</string>
+    <string name="CustomShurt">Таможенные правила ввоза личных вещей на территорию Украины</string>
+    <string name="allinfoShort">Общая информация про Украину\n</string>
     <string name="allinfoTit">Общая информация</string>
     <string name="calculaTitle">Расчет стоимости</string>
     <string name="calculShirtDescr">Рассчитать сколько будет стоить ваше путешествие</string>
     <string name="comunicShort">Мобильная связь и интернет в Украине</string>
     <string name="comunisTit">Интернет и связь</string>
+    <string name="cafe">Кафе</string>
+    <string name="calculateting">Просчитать</string>
+    <string name="comunical">Общественный транспорт</string>
+    <string name="email_subdject">Заказать помошника</string>
+    <string name="email_text">Я хочу позьзоватся Вашими услугами</string>
+    <string name="fastfood">Фастфуд</string>
+    <string name="fud">Питание</string>
+    <string name="hostel">Хостел</string>
+    <string name="hotel">Отель</string>
+    <string name="in">В</string>
+    <string name="living">Проживание</string>
+    <string name="nightclub">Ночной клуб</string>
+    <string name="no">Нет</string>
+    <string name="send_mail">Отправка письма..</string>
+    <string name="taxi">Такси</string>
+    <string name="transport">Транспорт</string>
+    <string name="visit">Посетить</string>
+    <string name="daystey">Дней проживания:</string>
+    <string name="diferencurs">Текущий курс может отличаться</string>
+    <string name="diferensumm">Сумма может отличаться в зависимости от сезона</string>
+    <string name="clickfirst">Выберите элемент</string>
 
 </resources>

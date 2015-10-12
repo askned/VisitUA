@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background">
@@ -8,7 +7,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="@dimen/image_main_h"
-
+        android:id="@+id/imagemain"
         android:scaleType="fitStart"
         android:src="@drawable/polemain"
         android:layout_gravity="center_horizontal"
@@ -18,10 +17,12 @@
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/tabliface"
+        android:layout_below="@id/tabliface"
         android:layout_gravity="center_horizontal">
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
         <com.facebook.share.widget.LikeView
             android:id="@+id/like_view"
             android:layout_width="wrap_content"
@@ -41,15 +42,21 @@
     </TableLayout>
 
     <ScrollView
+        android:layout_below="@id/imagemain"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
+    </ScrollView>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text=""
+        android:text="@string/textmain"
         android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
-    </ScrollView>
-</LinearLayout>
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imagemain"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="30dp" />
+</RelativeLayout>

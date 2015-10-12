@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_beforArrive"
-            android:icon="@android:drawable/ic_menu_agenda"
+            android:icon="@android:drawable/ic_menu_help"
             android:title="@string/beforArrive" />
         <item
             android:id="@+id/nav_curenccyConvet"
@@ -16,7 +16,7 @@
             android:title="@string/metromap" />
         <item
             android:id="@+id/nav_usefull"
-            android:icon="@android:drawable/ic_popup_reminder"
+            android:icon="@android:drawable/ic_menu_call"
             android:title="@string/usefull" />
         <item
             android:id="@+id/nav_kievmap"
@@ -24,11 +24,11 @@
             android:title="@string/kievmap" />
         <item
             android:id="@+id/nav_razgovornik"
-            android:icon="@android:drawable/ic_menu_day"
+            android:icon="@android:drawable/ic_menu_preferences"
             android:title="@string/razgovornik" />
         <item
             android:id="@+id/nav_marshruty"
-            android:icon="@android:drawable/ic_menu_manage"
+            android:icon="@android:drawable/ic_menu_directions"
             android:title="@string/marshruty" />
         <item
             android:id="@+id/nav_aboutus"

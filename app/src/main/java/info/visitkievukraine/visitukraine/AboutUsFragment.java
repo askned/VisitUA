@@ -22,7 +22,6 @@ public class AboutUsFragment extends Fragment {
     TextView textView;
 
 
-
     @ViewById
     ShareButton shareButton;
 
@@ -32,7 +31,7 @@ public class AboutUsFragment extends Fragment {
 
     @AfterViews
     void ready() {
-       // FacebookSdk.sdkInitialize(getApplicationContext());
+
 
         shareButton.setShareContent(content);
 

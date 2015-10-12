@@ -6,10 +6,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="info.visitkievukraine.visitukraine.CostCalculateFragment">
+    tools:context="info.visitkievukraine.visitukraine.CostCalculateFragment_">
 
     <LinearLayout
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/marginleftright"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -26,7 +26,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Дней проживания:"
+                    android:text="@string/daystey"
                     android:id="@+id/textDay"
                     android:gravity="fill" />
 
@@ -61,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Проживание"
+                android:text="@string/living"
                 android:id="@+id/textView12"
                 android:layout_gravity="center_horizontal" />
 
@@ -73,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Хостел"
+                    android:text="@string/hostel"
                     android:id="@+id/textView23" />
 
                 <com.rey.material.widget.Switch
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Отель"
+                    android:text="@string/hotel"
                     android:id="@+id/textView25" />
             </TableRow>
 
@@ -97,7 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Питание"
+                android:text="@string/fud"
                 android:id="@+id/textView15" />
 
             <TableRow
@@ -108,7 +108,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Фастфуд"
+                    android:text="@string/fastfood"
                     android:id="@+id/textView27" />
 
                 <com.rey.material.widget.Switch
@@ -123,7 +123,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Кафе"
+                    android:text="@string/cafe"
                     android:id="@+id/textView30" />
             </TableRow>
 
@@ -132,7 +132,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Транспорт"
+                android:text="@string/transport"
                 android:id="@+id/textView9" />
 
             <TableRow
@@ -143,7 +143,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Общественный"
+                    android:text="@string/comunical"
                     android:id="@+id/textView33" />
 
                 <com.rey.material.widget.Switch
@@ -158,7 +158,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Такси"
+                    android:text="@string/taxi"
                     android:id="@+id/textView38" />
             </TableRow>
 
@@ -167,7 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Ночной клуб"
+                android:text="@string/nightclub"
                 android:id="@+id/textView18" />
 
             <TableRow
@@ -178,7 +178,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Нет"
+                    android:text="@string/no"
                     android:id="@+id/textView39" />
 
                 <com.rey.material.widget.Switch
@@ -193,7 +193,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="Посетить"
+                    android:text="@string/visit"
                     android:id="@+id/textView42" />
             </TableRow>
 
@@ -203,8 +203,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonrezult"
-                android:text="Просчитать"
-                app:rd_enable="true" />
+                android:text="@string/calculateting"
+                app:rd_enable="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"

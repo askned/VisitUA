@@ -1,6 +1,7 @@
 package info.visitkievukraine.visitukraine;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -8,8 +9,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
-import android.widget.ListView;
+import android.view.View;
 
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
@@ -28,15 +30,20 @@ public class MainActivity extends AppCompatActivity
     @ViewById
     DrawerLayout drawerLayout;
 
-    @ViewById
-    ListView left_drawer;
 
+    @ViewById
+    android.support.design.widget.FloatingActionButton fab;
 
     @AfterViews
     void ready() {
         FacebookSdk.sdkInitialize(getApplicationContext());
 
-
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendEmail();
+            }
+        });
 
         if (toolbar != null) {
             setSupportActionBar(toolbar);
@@ -98,16 +105,16 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-
+        fab.setVisibility(View.INVISIBLE);
         int id = item.getItemId();
 
         if (id == R.id.nav_aboutus) {
             setTitle(getString(R.string.aboutus));
             getFragmentManager().beginTransaction().replace(R.id.content_frame, AboutUsFragment_.builder().build()).commit();
-
+            fab.setVisibility(View.VISIBLE);
             // Handle the camera action
         } else if (id == R.id.nav_beforArrive) {
-            Intent intent = new Intent(MainActivity.this, ScrollingActivity.class);
+            Intent intent = new Intent(MainActivity.this, ScrollingActivity_.class);
             startActivity(intent);
             setTitle(getString(R.string.beforArrive));
         } else if (id == R.id.nav_curenccyConvet) {
@@ -139,6 +146,31 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void sendEmail() {
+        Log.i("Send email", "");
+
+        String[] TO = {getString(R.string.emailsend)};
+
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.setType("text/plain");
+
+
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
+
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.email_subdject));
+        emailIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.email_text));
+
+        startActivity(Intent.createChooser(emailIntent,
+                getString(R.string.send_mail)));
+    }
+
+
+    @Override
+    protected void onResumeFragments() {
+        super.onResumeFragments();
     }
 }
 

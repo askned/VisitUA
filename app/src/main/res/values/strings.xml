@@ -13,10 +13,7 @@
     <string name="about" translatable="false">Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.</string>
     <string name="usefukll">Useful phone numbers</string>
 
-    <string name="textmain"><![CDATA[We are glad to invite you to Ukraine. \n
-<p>Project <b>Travel Ukraine Kiev</b> created, for that would make your trip to Ukraine as comfortable as possible. The app is updated monthly, and every day it becomes more and more interesting. This proposal is developed voluntarily on this app, please tell your friends and layknut our page.</p>\n
-    We hope that you are interested in coming to Ukraine because we would love to have you here in our country.
-    ]]></string>
+    <string name="textmain">"We are glad to invite you to Ukraine. \nProject <b>Travel Ukraine Kiev</b> created, for that would make your trip to Ukraine as comfortable as possible. The app is updated monthly, and every day it becomes more and more interesting. This proposal is developed voluntarily on this app, please tell your friends and like our page.\nWe hope that you are interested in coming to Ukraine because we would love to have you here in our country."</string>
     <string name="razgovornik">Phrasebook</string>
     <string name="marshruty">Tourist routes</string>
     <string name="kievmap">Map</string>
@@ -44,11 +41,11 @@
     <string name="curenccyConvet">Currency converter</string>
 
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="metrokiev">Subway map of Kiev</string>
     <string name="metrokharkov">Subway map of Kharkov</string>
-    <string name="textInuah">Enter the amount in UAH:</string>
+    <string name="textInuah">Enter the amount:</string>
     <string name="textKonvertVal">Select a currency for conversion:</string>
     <string name="TextCurs">Rate:</string>
     <string name="pressButton">Click on the button below</string>
@@ -58,7 +55,7 @@
 
     <string name="about2" translatable="false">Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.Украи́на — государство в Восточной Европе. Население, по итогам переписи 2001 года, составило 48 240 902 постоянных жителей[18] и 48 457 102 человек наличного населения[19], по данным государственной службы статистики Украины на 1 июня 2015 года — 42 667 285 постоянных жителей и 42 836 922 человек наличного населения[11][12], территория в рамках конституционного устройства[10] страны — 603 549 км²[20], при этом часть её властями Украины де-факто не контролируется. Занимает 32-е место в мире по численности населения, 44 (47)-е по территории и второе после России по территории среди стран Европы.\n Столица — Киев. Государственный язык — украинский.\n Украина — унитарное государство и парламентско-президентская республика. 8 июня 2014 года пост президента занял Пётр Порошенко. Премьер-министр Украины — Арсений Яценюк (с 27 февраля 2014 года). Страна подразделяется на 27 административно-территориальных единиц, 24 из которых являются областями, 1 — автономной республикой и 2 представляют собой города государственного подчинения (Киев, Севастополь[22]).\n Граничит с Белоруссией на севере, Польшей, Словакией и Венгрией — на западе, Румынией и Молдавией — на юго-западе, Россией на востоке и северо-востоке. На юге и юго-востоке омывается Чёрным и Азовским морями.\n Большая часть верующих исповедует православие.\n Индустриально-аграрная страна[источник не указан 156 дней]. Объём ВВП за 2012 год, рассчитанный по паритету покупательной способности составил 338 334 миллиона долларов США (7 421 доллара США на душу населения)[13]. Номинальный ВВП в том же году составил 176 310 миллионов долларов США (3 867 долларов США на душу населения)[13]. Денежная единица — гривна (UAH), усреднённый курс за июнь 2015 год — 22 гривны за 1 доллар США.\n Независимость страны от СССР, союзной республикой которого Украина была с декабря 1922 года, провозглашена 24 августа 1991 года. Государство-продолжатель УССР, соправопреемница СССР по международным договорам, соучредитель СССР, ООН, СНГ, ГУАМ, ОЧЭС и других организаций.После 1991 года и до 1994—1996 годов Украина располагала третьим по величине стратегическим ядерным запасом после США и России.</string>
     <string name="title_activity_scrolling">Before arriving</string>
-    <string name="large_text">
+    <string name="large_text" translatable="false">
         "Material is the metaphor.\n\n"
 
             "A material metaphor is the unifying theory of a rationalized space and a system of motion.""The material is grounded in tactile reality, inspired by the study of paper and ink, yet ""technologically advanced and open to imagination and magic.\n""Surfaces and edges of the material provide visual cues that are grounded in reality. The ""use of familiar tactile attributes helps users quickly understand affordances. Yet the ""flexibility of the material creates new affordances that supercede those in the physical ""world, without breaking the rules of physics.\n""The fundamentals of light, surface, and movement are key to conveying how objects move, ""interact, and exist in space and in relation to each other. Realistic lighting shows ""seams, divides space, and indicates moving parts.\n\n"
@@ -86,35 +83,35 @@
             "Components with responsive elevations may encounter other components as they move between ""their resting elevations and dynamic elevation offsets. Because material cannot pass ""through other material, components avoid interfering with one another any number of ways, ""whether on a per component basis or using the entire app layout.\n""On a component level, components can move or be removed before they cause interference. ""For example, a floating action button (FAB) can disappear or move off screen before a ""user picks up a card, or it can move if a snackbar appears.\n""On the layout level, design your app layout to minimize opportunities for interference. ""For example, position the FAB to one side of stream of a cards so the FAB won’t interfere ""when a user tries to pick up one of cards.\n\n"
     </string>
     
-    <string name="imigrationText">"Prior to or upon landing in Ukraine all non-Ukrainian citizens shall complete 
-    an immigration form. Forms are available on-board from our cabin crew or at your arrival 
-    airport.  Fill out both the Arrival and Departure information and present the form to the Ukraine Immigration 
-    Officer at border control. \n
-    The immigration card is a document that confirms legality of a foreigner's 
-    stay on the territory of Ukraine.\n
-         You should give one part of the form to the customs officer, 
-        and keep the other one, then give it to the customs officer while leaving Ukraine.\n
-        The lack of the immigration card may be the basis for imposing a fine (extracting a bribe) by a 
-        customs officer on the border or the police on the whole territory of Ukraine.\n\n
+    <string name="imigrationText">"Prior to or upon landing in Ukraine all non-Ukrainian citizens shall complete
+an immigration form. Forms are available on-board from our cabin crew or at your arrival
+airport.  Fill out both the Arrival and Departure information and present the form to the Ukraine Immigration
+Officer at border control. \n
+The immigration card is a document that confirms legality of a foreigners
+stay on the territory of Ukraine.\n
+You should give one part of the form to the customs officer,
+and keep the other one, then give it to the customs officer while leaving Ukraine.\n
+The lack of the immigration card may be the basis for imposing a fine (extracting a bribe) by a
+customs officer on the border or the police on the whole territory of Ukraine.\n\n
+How to fill in \n
+The field meant for the immigration cards number should be left empty \n
+1. Last name\n
+2. First name\n
+3. Citizenship\n
+4. Date of birth\n
+5. Sex\n
+6. Passport no.\n
+7. If travelling to Ukraine - should be left empty, if transiting to another country - entering the
+destination country's visa no. may be required\n
+8. Children (the ones that accompany you during the trip) - first names and dates of birth\n
+9. Purpose of the journey - TURYZM (ТУРИЗМ, TOURISM) or TRANZYT (ТРАНЗИТ, TRANSIT)\n
+10. City, name (and address) of the hotel (hostel) (you can enter anything, the data will not be verified)\n
+11. Vehicle registration no. (only when travelling by car)\n
+12. Signature\n\n
+Caution! Both sides of the form should be filled in. Pay attention that some field numbers from
+the right side are different from those from the left side.\n
+Example:"
 
-        <b>How to fill in</b>\n
-        The field meant for the immigration card's number should be left empty\n
-        1. Last name\n
-        2. First name\n
-        3. Citizenship\n
-        4. Date of birth\n
-        5. Sex\n
-        6. Passport no.\n
-        7. If travelling to Ukraine - should be left empty, if transiting to another country - entering the 
-        destination country's visa no. may be required\n
-        8. Children (the ones that accompany you during the trip) - first names and dates of birth\n
-        9. Purpose of the journey - TURYZM (ТУРИЗМ, TOURISM) or TRANZYT (ТРАНЗИТ, TRANSIT)\n
-        10. City, name (and address) of the hotel / hostel (you can enter anything, the data will not be verified)\n
-        11. Vehicle registration no. (only when travelling by car)\n
-        12. Signature\n\n
-        Caution! Both sides of the form should be filled in. Pay attention that some field numbers from 
-        the right side are different from those from the left side.\n
-        Example:"
 </string>
     <string name="allInfromText">
     "We are glad to invite you to Ukraine. Our country is one of the biggest in Europe and can present 
@@ -166,13 +163,13 @@ appreciate the economic potential of our country! Welcome to Ukraine!
         "</string>
 
     <string name="customText">"Customs Clearance \n
-        Ukraine operates a Red and Green customs system.  Non-residents arriving into Ukraine may use the Green channel provided they are carrying no more than:\n\n
-        EUR10,000 in cash\n
-        1 litre of spirits\n
-        2 litres of wine\n
-        5 litres of beer\n
-        200 cigarettes OR 250 grams of tobacco OR 50 cigars\n
-        Food products for personal use valued up to EUR50\n
+        Ukraine operates a Red and Green customs system.  Non-residents arriving into Ukraine may use the Green channel provided they are carrying no more than:\n
+        - EUR10,000 in cash;\n
+        - 1 litre of spirits;\n
+        - 2 litres of wine;\n
+        - 5 litres of beer;\n
+        - 200 cigarettes OR 250 grams of tobacco OR 50 cigars;\n
+        - Food products for personal use valued up to EUR50;\n
         Do not transport any meat products into Ukraine – these are not allowed into the country.\n
         This summary is informational only and rules are subject to change.  It is a passenger's responsibility to comply with all Customs and Immigration laws.  For current information, please
         "</string>
@@ -189,18 +186,18 @@ appreciate the economic potential of our country! Welcome to Ukraine!
     <string name="visaTitle">Visa Requirements</string>
     <string name="visaShort">Do I need to get visa before traveling</string>
     <string name="customTit">Customs Clearance</string>
-    <string name="CustomShurt">The right to import and export to the territory of Ukraine</string>
+    <string name="CustomShurt">Rules to import and export to the territory of Ukraine</string>
     <string name="imigrateShort">Rules of registration on arrival in the territory of Ukraine</string>
     <string name="comunisTit">Communication</string>
     <string name="comunicShort">Mobile telephony and Internet in Ukraine</string>
     <string name="allinfoTit">General information</string>
-    <string name="allinfoShort">General information about Ukraine</string>
-    <string name="emailsend">askden8@gmail.com</string>
+    <string name="allinfoShort">General information about Ukraine\n </string>
+    <string name="emailsend" translatable="false">askden8@gmail.com</string>
     <string name="email_subdject">Order Assistance</string>
-    <string name="email_text">I wish ro use yours travel assistance</string>
-    <string name="send_mail">Sending letter...</string>
+    <string name="email_text">I wish use yours travel assistance</string>
+    <string name="send_mail">Sending letter…</string>
     <string name="imigratTit">Immigration Regulations </string>
- <string name="interestFacts">"
+ <string name="interestFacts" translatable="false">"
 10 interesting facts about Ukraine\n
 1. The geographical centre of Europe is situated in the territory of Ukraine, not far from the 
 city of Rakhov in Zakarpattia region. \n
@@ -229,5 +226,23 @@ Ilya Repin, Kazimir Malevich, Sergei Prokofiev, Ruslana and many others. \n
 10. The horse was first domesticated on the territory of Ukraine.
 
  "</string>
+    <string name="emailcontact" translatable="false">askden8@gmail.com</string>
+    <string name="cafe">Cafe</string>
+    <string name="calculateting">Calculate</string>
+    <string name="comunical">Public transport</string>
+    <string name="fastfood">Fast Food</string>
+    <string name="fud">Food</string>
+    <string name="hostel">Hostel</string>
+    <string name="hotel">Hotel</string>
+    <string name="living">Accommodation</string>
+    <string name="nightclub">Night club</string>
+    <string name="no">Not</string>
+    <string name="taxi">Taxi</string>
+    <string name="transport">Transport</string>
+    <string name="visit">Visit</string>
+    <string name="daystey">Days of stay:</string>
+    <string name="diferensumm">The amount may differ according on the season</string>
+    <string name="diferencurs">The current rate may be different</string>
+    <string name="clickfirst">Select item</string>
 
 </resources>

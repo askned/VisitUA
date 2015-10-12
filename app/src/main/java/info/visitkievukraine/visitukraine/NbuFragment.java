@@ -1,6 +1,7 @@
 package info.visitkievukraine.visitukraine;
 
 import android.app.Fragment;
+import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -20,6 +21,7 @@ import org.xml.sax.SAXException;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -34,12 +36,14 @@ import javax.xml.xpath.XPathFactory;
 @EFragment(R.layout.converter_fragment)
 public class NbuFragment extends Fragment {
 
+    @ViewById
+    android.support.design.widget.FloatingActionButton fab;
 
     @ViewById
     Spinner spinnerval;
 
     @ViewById
-    TextView cost_label, description_label;
+    TextView cost_label, description_label, description_label2;
 
     @ViewById
     EditText name_label;
@@ -58,7 +62,8 @@ public class NbuFragment extends Fragment {
         parsbutt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Snackbar.make(getView(), R.string.diferencurs, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
                 try {
                     getCurrensyRate();
                 } catch (IOException e) {
@@ -80,6 +85,7 @@ public class NbuFragment extends Fragment {
 
 
         // адаптер с данными, полученными через XPath для вывода в ListView
+        Collections.sort(mCats); //сортируем
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, mCats);
         spinnerval.setAdapter(adapter);
@@ -159,9 +165,13 @@ public class NbuFragment extends Fragment {
 
         cost_label.setText(getString(R.string.cursLabel) + String.valueOf(currceComplite));
         Float resultComplite = Float.valueOf(name_label.getText().toString()) / currceComplite;
+        Float resultComplite2 = Float.valueOf(name_label.getText().toString()) * currceComplite;
 
         String formattedString = String.format("%.02f", resultComplite);
-        description_label.setText(getString(R.string.summaLabel) + formattedString + valutaname_label);
+        String formattedString2 = String.format("%.02f", resultComplite2);
+        description_label.setText(new StringBuilder().append(name_label.getText()).append(" UAH = ").append(formattedString).append(" ").append(valutaname_label).toString());
+        description_label2.setText(new StringBuilder().append(name_label.getText()).append(" ").append(valutaname_label).append(" = ").append(formattedString2).append(" UAH").toString());
+        //    description_label.setText(getString(R.string.summaLabel) + formattedString + valutaname_label);
 
     }
 }

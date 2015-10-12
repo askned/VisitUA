@@ -2,6 +2,7 @@ package info.visitkievukraine.visitukraine;
 
 
 import android.app.Fragment;
+import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.TextView;
@@ -65,7 +66,8 @@ public class CostCalculateFragment extends Fragment implements CompoundButton.On
             @Override
             public void onClick(View v) {
                 Integer days = Integer.valueOf(String.valueOf(editText.getText()));
-
+                Snackbar.make(getView(), R.string.diferensumm, Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
 
                 Integer summall = days * (homecost + fudcost + costtransp) + costnclub;
                 sumtext.setText(getString(R.string.summatex) + String.valueOf(summall) + " $");

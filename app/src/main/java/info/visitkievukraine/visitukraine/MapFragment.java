@@ -48,8 +48,8 @@ public class MapFragment extends Fragment {
 
         googleMap = mMapView.getMap();
         // latitude and longitude
-        double latitude = 50.450250;
-        double longitude = 30.52389;
+        double latitude = 50.274284;
+        double longitude = 314448;
 
         // create marker
         MarkerOptions marker = new MarkerOptions().position(new LatLng(latitude, longitude)).title(getString(R.string.glavotdel));
@@ -62,7 +62,7 @@ public class MapFragment extends Fragment {
         // adding marker
         googleMap.addMarker(marker);
         CameraPosition cameraPosition = new CameraPosition.Builder()
-                .target(new LatLng(50.271044, 30.305148)).zoom(11).build();
+                .target(new LatLng(50.4495972, 30.5237343)).zoom(11).build();
         googleMap.animateCamera(CameraUpdateFactory
                 .newCameraPosition(cameraPosition));
         googleMap.getUiSettings().setZoomControlsEnabled(true);
@@ -110,6 +110,6 @@ public class MapFragment extends Fragment {
 
         googleMap.addPolyline(new PolylineOptions().addAll(decodedPath));
 
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-33.8256, 151.2395), 12));
+         //    googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-33.8256, 151.2395), 12));
     }
 }

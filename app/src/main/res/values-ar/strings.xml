@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CustomShurt">اللوائح الجمركية على الواردات البنود الشخصية في إقليم أوكرانيا</string>
+    <string name="Phrase">Small Text</string>
+    <string name="TextCurs">بالطبع:</string>
+    <string name="aboutus">حول بنا</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="allinfoShort">معلومات عامة عن أوكرانيا</string>
+    <string name="allinfoTit">معلومات عامة</string>
+    <string name="beforArrive">قبل وصوله</string>
+    <string name="cafe">مقهى</string>
+    <string name="calculShirtDescr">حساب كم سيكلف رحلتك</string>
+    <string name="calculaTitle">تكلف</string>
+    <string name="calculate">حساب</string>
+    <string name="calculateting">حساب</string>
+    <string name="callairoport">مطار بوريسبيل</string>
+    <string name="callbutton">دعوة</string>
+    <string name="callmedic">سيارة إسعاف</string>
+    <string name="callpizza">توصيل البيتزا</string>
+    <string name="callpolice">قوات الشرطة</string>
+    <string name="comunicShort">الهاتف المحمول والإنترنت في أوكرانيا</string>
+    <string name="comunical">وسائل النقل العام</string>
+    <string name="comunisTit">الإنترنت والاتصالات</string>
+    <string name="curenccyConvet">تحويل العملات</string>
+    <string name="cursLabel">"Rate: "</string>
+    <string name="customTit">التخليص الجمركي</string>
+    <string name="daystey">أيام الإقامة:</string>
+    <string name="diferencurs">قد يكون المعدل الحالي مختلفة</string>
+    <string name="diferensumm">قد تختلف كمية اعتمادا على الموسم</string>
+    <string name="discount">خصومات</string>
+    <string name="email_subdject">مساعد أجل</string>
+    <string name="email_text">أريد استخدام خدماتك</string>
+    <string name="fastfood">لوجبات السريعة</string>
+    <string name="firedept">دائرة النار</string>
+    <string name="fud">قوة</string>
+    <string name="glavotdel">ساحة الاستقلال</string>
+    <string name="hostel">نزل</string>
+    <string name="hotel">فندق</string>
+    <string name="imigratTit">وائح الهجرة</string>
+    <string name="imigrateShort">قواعد عند وصوله إلى أراضي أوكرانيا</string>
+    <string name="in">ال</string>
+    <string name="informationcall">خلفية</string>
+    <string name="kartakiev">خريطة المترو كييف</string>
+    <string name="kievmap">خريطة</string>
+    <string name="living">الإقامة</string>
+    <string name="marshruty">طرق سياحية</string>
+    <string name="metrokharkov">المترو خريطة خاركوف</string>
+    <string name="metrokiev">خريطة المترو كييف</string>
+    <string name="metromap">خريطة مترو الأنفاق</string>
+    <string name="nightclub">ملهى</string>
+    <string name="no">لا</string>
+    <string name="pressButton">انقر على الزر أدناه</string>
+    <string name="privatdoc">عيادة خاصة 1</string>
+    <string name="privatdoc2">عيادة خاصة 2</string>
+    <string name="razgovornik">كتاب تفسير العبارات الشائعة</string>
+    <string name="send_mail">إرسال متأخرة ...</string>
+    <string name="summaLabel">"Amount:  "</string>
+    <string name="summatex">"Amount: "</string>
+    <string name="taxi">سيارة أجرة</string>
+    <string name="taxikv1">2 سيارة أجرة</string>
+    <string name="taxikv2">3 سيارة أجرة</string>
+    <string name="taxikv3">سيارة أجرة4 </string>
+    <string name="textInuah">أدخل المبلغ:</string>
+    <string name="textKonvertVal">حدد العملة لتحويل:</string>
+    <string name="title_activity_scrolling">قبل وصوله</string>
+    <string name="transport">نقل</string>
+    <string name="usefukll">أرقام هواتف مفيدة</string>
+    <string name="usefull">أرقام هواتف مفيدة</string>
+    <string name="visaShort">هل تحتاج إلى تأشيرة قبل السفر</string>
+    <string name="visaTitle">قواعد دخول</string>
+    <string name="visit">رؤية</string>
+    <string name="цуддиуыщщт">قريبا!</string>
+
+
+    <string name="imigrationText">"Prior to or upon landing in Ukraine all non-Ukrainian citizens shall completean immigration form. Forms are available on-board from our cabin crew or at your arrivalairport.  Fill out both the Arrival and Departure information and present the form to the Ukraine ImmigrationOfficer at border control. \nThe immigration card is a document that confirms legality of a foreignersstay on the territory of Ukraine.\nYou should give one part of the form to the customs officer,and keep the other one, then give it to the customs officer while leaving Ukraine.\nThe lack of the immigration card may be the basis for imposing a fine (extracting a bribe) by acustoms officer on the border or the police on the whole territory of Ukraine.\n\nHow to fill in \nThe field meant for the immigration cards number should be left empty \n1. Last name\n2. First name\n3. Citizenship\n4. Date of birth\n5. Sex\n6. Passport no.\n7. If travelling to Ukraine - should be left empty, if transiting to another country - entering thedestination country's visa no. may be required\n8. Children (the ones that accompany you during the trip) - first names and dates of birth\n9. Purpose of the journey - TURYZM (ТУРИЗМ, TOURISM) or TRANZYT (ТРАНЗИТ, TRANSIT)\n10. City, name (and address) of the hotel (hostel) (you can enter anything, the data will not be verified)\n11. Vehicle registration no. (only when travelling by car)\n12. Signature\n\nCaution! Both sides of the form should be filled in. Pay attention that some field numbers fromthe right side are different from those from the left side.\nExample:"
+
+</string>
+    <string name="allInfromText">
+    "We are glad to invite you to Ukraine. Our country is one of the biggest in Europe and can presentits beautiful landscapes, rich culture, ancient history, delicious cuisine and hospitality. \nHryvnia is a national currency of Ukraine. It has been the national currency since September 2, 1996. \nUkraine is abundant in all tourist attractions for travelers eager to learn more about the surrounding world,peoples inhabiting it, their history and folkways. \nBoundless steppes, thick forests, groves, towering mountains, warm and caressing seas, wide rivers, cave labyrinths– put together, this cannot but attract tourists. Add to this numerous nature preserves, dendrological parks,rich museum collections, historical and cultural landmarks, unique creations of artisans. \nUkraine has substantial economic potential. The key sector of the economy is industry. It accounts for thegreatest part of the national income. Agriculture is important as well. \nThe time in Kiev is 7 hours later than US Eastern Standard, 2 hours later than Greenwich Mean. Ukrainecovers one time zone. Daylight Saving Time is in effect from the first Sunday of April until the lastSunday of October. \nWe hope that you are interested in coming to Ukraine because we would love to have you here in our country.We invite you to enjoy the hospitality of our communities and the beauty of our landscapes! We invite you toappreciate the economic potential of our country! Welcome to Ukraine!" </string>
+
+    <string name="comunicationText">"During your stay in another country it is very important to know about itscommunications system in order to stay in contact with your family and friends back home, as well as to stayin touch with people in the country, itself. Ukraine's communications system is generally well-developed inthe bigger cities and main tourist areas. It's not a problem nowadays to find Internet in Ukraine in themajor cities, but still could be difficult in the smaller towns and villages. You'll be able to findInternet cafés throughout big cities. you'll be able to use Internet in some public places with Wi-Fiaccess: restaurants, cafes, airports, train stations, hotels. They will usually have a Wi-Fi sign onthe window or somewhere else.\n\nMobile\nThere are several companies serving cellular connection in Ukraine:\n\n
+
+        GSM: Kyivstar GSM, MTC Life :)\nCDMA: CDMA Ukraine, Intertelecom, PEOPLE Net, U'TEL (Ukrtelecom)\nMTS-UKR +38050, +38066, +38095, +38099\nKyivstar +38067, +38096, +38097, +38098\nLife:) +38063, +38093\nBeeline +38068\nPeoplenet (CDMA/3g) +38092\nUTEL (3g) +38091\nIntertelecom (CDMA/3g) +38094\nGolden Telecom +38039\n\n
+
+        If your operator works in one of the mentioned above standards, most probably you will be able touse your cell phone in Ukraine as well. Please, find all details from your local cellular provider.\n\n
+
+        Be aware, that international roaming is quite expensive in Ukraine.\nwe highly recommend you on arrival to buy a SIM card from the mobile operators with 3G internet(Kyivstar,MTC Life ) for that would comfortably to Use our application and make your journey more comfortable"</string>
+
+    <string name="customText">"Customs Clearance \nUkraine operates a Red and Green customs system.  Non-residents arriving into Ukraine may use the Green channel provided they are carrying no more than:\n\nEUR10,000 in cash\n1 litre of spirits\n2 litres of wine\n5 litres of beer\n200 cigarettes OR 250 grams of tobacco OR 50 cigars\nFood products for personal use valued up to EUR50\nDo not transport any meat products into Ukraine – these are not allowed into the country.\nThis summary is informational only and rules are subject to change.  It is a passenger's responsibility to comply with all Customs and Immigration laws.  For current information, please"</string>
+
+    <string name="visaText">"Ukraine has a generous visa-waiver program for travellers coming into the country as tourists for stays of UP TO 90 DAYS. Citizens holding passports from the following countries do not need a visa (the list below may not be complete, please check with your embassy):\n\nArmenia, Azerbaijan, Principality of Andorra, Canada, European Union, Republic of Iceland, Republic of Belarus, Japan,Principality of Liechtenstein, Principality of Monaco, Norway, Republic of San Marino, Russian Federation, Switzerland,United Kingdom, United States of America, Vatican City-State\nCIS citizens and holders of diplomatic, special or business passports of select countries that have entered into special agreements with Ukraine do not require a visa for entry.\nAll other foreign citizens require a visa to enter Ukraine.  Please note:  Visas are NOT issued upon arrival and must be obtained in advance through your nearest Embassy of Ukraine. "</string>
+    <string name="textmain">"We are glad to invite you to Ukraine. \nProject <b>Travel Ukraine Kiev</b> created, for that would make your trip to Ukraine as comfortable as possible. The app is updated monthly, and every day it becomes more and more interesting. This proposal is developed voluntarily on this app, please tell your friends and like our page.\nWe hope that you are interested in coming to Ukraine because we would love to have you here in our country."</string>
+    <string name="clickfirst">تحديد عنصر</string>
+
+</resources>
