@@ -11,7 +11,8 @@
         android:scaleType="fitStart"
         android:src="@drawable/polemain"
         android:layout_gravity="center_horizontal"
-        android:contentDescription="fild" />
+        android:contentDescription="fild"
+        android:elevation="3dp" />
 
 
     <TableLayout
@@ -37,7 +38,7 @@
             android:layout_height="wrap_content"
 
             android:layout_margin="5dp"
-            />
+            android:elevation="7dp" />
         </TableRow>
     </TableLayout>
 

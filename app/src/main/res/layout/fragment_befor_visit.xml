@@ -23,7 +23,7 @@
         card_view:cardCornerRadius="@dimen/cardradius"
         android:id="@+id/view"
 
-        >
+        android:elevation="2dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,7 +58,8 @@
         card_view:cardBackgroundColor="@color/backgroundCard"
         card_view:cardCornerRadius="@dimen/cardradius"
 
-        android:id="@+id/view2">
+        android:id="@+id/view2"
+        android:elevation="2dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -91,7 +92,8 @@
         card_view:cardBackgroundColor="@color/backgroundCard"
         card_view:cardCornerRadius="@dimen/cardradius"
         android:layout_below="@id/view2"
-        android:id="@+id/view3">
+        android:id="@+id/view3"
+        android:elevation="2dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -125,7 +127,8 @@
         card_view:cardBackgroundColor="@color/backgroundCard"
         card_view:cardCornerRadius="@dimen/cardradius"
 
-        android:id="@+id/view4">
+        android:id="@+id/view4"
+        android:elevation="2dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -158,7 +161,8 @@
         card_view:cardBackgroundColor="@color/backgroundCard"
         card_view:cardCornerRadius="@dimen/cardradius"
         android:layout_below="@id/view4"
-        android:id="@+id/view5">
+        android:id="@+id/view5"
+        android:elevation="2dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -192,7 +196,8 @@
         card_view:cardBackgroundColor="@color/backgroundCard"
         card_view:cardCornerRadius="@dimen/cardradius"
 
-        android:id="@+id/view6">
+        android:id="@+id/view6"
+        android:elevation="2dp">
 
         <TextView
             android:layout_width="wrap_content"

@@ -51,7 +51,8 @@
             android:id="@+id/seekBar"
             app:sl_minValue="1"
             app:sl_maxValue="30"
-            app:sl_value="1" />
+            app:sl_value="1"
+            android:elevation="1dp" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -82,7 +83,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:id="@+id/switchhome"
-                    android:checked="false" />
+                    android:checked="false"
+                    android:elevation="1dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -117,7 +119,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:id="@+id/switchfood"
-                    android:checked="false" />
+                    android:checked="false"
+                    android:elevation="1dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -152,7 +155,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:id="@+id/switchtransport"
-                    android:checked="false" />
+                    android:checked="false"
+                    android:elevation="1dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -187,7 +191,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:id="@+id/switchnclub"
-                    android:checked="false" />
+                    android:checked="false"
+                    android:elevation="1dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -206,7 +211,8 @@
                 android:text="@string/calculateting"
                 app:rd_enable="true"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp" />
+                android:layout_marginBottom="10dp"
+                android:elevation="8dp" />
 
             <TextView
                 android:layout_width="wrap_content"

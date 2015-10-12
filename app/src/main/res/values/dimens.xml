@@ -32,7 +32,7 @@
     <dimen name="width_tablet">600dp</dimen>
     <dimen name="cardmargin">1dp</dimen>
     <dimen name="marginleftright">10dp</dimen>
-    <dimen name="textmargin">15dp</dimen>
+    <dimen name="textmargin">16dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
 
 
