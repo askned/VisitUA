@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_marshruty) {
             setTitle(getString(R.string.marshruty));
-            getFragmentManager().beginTransaction().replace(R.id.content_frame, WillBeFragment_.builder().build()).commit();
+            getFragmentManager().beginTransaction().replace(R.id.content_frame, MapItemFragment_.builder().build()).commit();
 
     }
 
@@ -171,6 +171,11 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onResumeFragments() {
         super.onResumeFragments();
+    }
+
+    public void onClickTopTen(View view) {
+        getFragmentManager().beginTransaction().replace(R.id.content_frame, TopTenFragment_.builder().build()).commit();
+
     }
 }
 

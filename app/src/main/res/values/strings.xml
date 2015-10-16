@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">Travel Ukraine Kiev</string>
-
     <string name="hello_world" translatable="false">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps" translatable="false">Map</string>
@@ -95,19 +94,19 @@ The lack of the immigration card may be the basis for imposing a fine (extractin
 customs officer on the border or the police on the whole territory of Ukraine.\n\n
 How to fill in \n
 The field meant for the immigration cards number should be left empty \n
-1. Last name\n
-2. First name\n
-3. Citizenship\n
-4. Date of birth\n
-5. Sex\n
-6. Passport no.\n
+1. Last name;\n
+2. First name;\n
+3. Citizenship;\n
+4. Date of birth;\n
+5. Sex;\n
+6. Passport no.;\n
 7. If travelling to Ukraine - should be left empty, if transiting to another country - entering the
-destination country's visa no. may be required\n
-8. Children (the ones that accompany you during the trip) - first names and dates of birth\n
-9. Purpose of the journey - TURYZM (ТУРИЗМ, TOURISM) or TRANZYT (ТРАНЗИТ, TRANSIT)\n
-10. City, name (and address) of the hotel (hostel) (you can enter anything, the data will not be verified)\n
-11. Vehicle registration no. (only when travelling by car)\n
-12. Signature\n\n
+destination country's visa no. may be required;\n
+8. Children (the ones that accompany you during the trip) - first names and dates of birth;\n
+9. Purpose of the journey - TURYZM (ТУРИЗМ, TOURISM) or TRANZYT (ТРАНЗИТ, TRANSIT);\n
+10. City, name (and address) of the hotel (hostel) (you can enter anything, the data will not be verified);\n
+11. Vehicle registration no. (only when travelling by car);\n
+12. Signature.\n\n
 Caution! Both sides of the form should be filled in. Pay attention that some field numbers from
 the right side are different from those from the left side.\n
 Example:"
@@ -203,14 +202,14 @@ appreciate the economic potential of our country! Welcome to Ukraine!
 city of Rakhov in Zakarpattia region. \n
 2. The grave of the founding rabbi of Hassidism, situated near Uman', is a pilgrimage site for Hasidic Jews. \n
 3. The first state constitution in Europe was created by a Ukrainian politician Pylyp Orlyk. On April 5th, 1710 
-he was elected the Hetman of Zaporozhye troops. On the same day Pylyp Orlyk has announced "the Constitution of 
-the rights and freedoms of Zaporizhye army". For example, U.S. Constitution was adopted in 1787 and French and 
+he was elected the Hetman of Zaporozhye troops. On the same day Pylyp Orlyk has announced 'the Constitution of
+the rights and freedoms of Zaporizhye army'. For example, U.S. Constitution was adopted in 1787 and French and
 Polish in 1791. \n
 4. The first computer in continental Europe was built in Kiev under the supervision of the scholar Sergey 
 Lebedev and well-known scientist Victor Glushkov in 1950. \n
 Ukrainian AN-225 Mria - the biggest and heaviest aircraft in the World. \n
 Ukrainian AN-225 Mria as the basis for the aerospace systems. \n
-5. AN-225 “Mria” (from Ukrainian – “a dream”) is today the biggest and the heaviest aircraft with the highest 
+5. AN-225 'Mria' (from Ukrainian – 'a dream') is today the biggest and the heaviest aircraft with the highest
 cargo capacity in the World. This unique cargo plane was constructed in the 1980′s by the Antonov’s Development 
 Laboratory (Kiev, Ukraine). Its length is 84 m, height – 18 m, total cargo capacity – 250 tons. \n
 6. Ukraine contains around 5% of the worlds mineral resources. \n
@@ -219,7 +218,7 @@ of the Black Sea, the Dnieper River, vineyards, ruins of ancient cities and cast
 and monasteries; world-class opera and ballet, and more. \n
 8. Ukraine has the World’s 5th largest and fastest growing IT outsourcing services market in the World, with revenues 
 in 2011 expected to reach $1 billion. \n
-Modern Ukrainian ethnic song "I know" by Ruslana - Winner of Eurovision Song Contes 2004. \n
+Modern Ukrainian ethnic song 'I know' by Ruslana - Winner of Eurovision Song Contes 2004. \n
 9. Famous people that are Ukrainian or of Ukrainian extraction are Vitali and Vladimir Klitschko, Andrey Shevchenko, 
 Vasyl Virastyuk, Sergey Korolev, Vladimir Vernadsky, Ilya Mechnikov, Simon Kuznets, Nikolay Amosov, Mikhail Bulgakov, 
 Ilya Repin, Kazimir Malevich, Sergei Prokofiev, Ruslana and many others. \n
@@ -244,5 +243,117 @@ Ilya Repin, Kazimir Malevich, Sergei Prokofiev, Ruslana and many others. \n
     <string name="diferensumm">The amount may differ according on the season</string>
     <string name="diferencurs">The current rate may be different</string>
     <string name="clickfirst">Select item</string>
+
+
+    <string name="top10see">"
+   <b> 1. Climb the bell tower of St. Sophia \n \n </b>
+
+
+        Known for its architecture, St. Sophia Cathedral is the most visited monument of architecture and culture of
+        the city. The decoration of the ensemble of the reserve "Sophia of Kyiv" is the bell tower, built in the early
+        XVII century. It is decorated with white stucco decorations on a bright turquoise background. The architectural
+        image of the bell tower was formed during the XVIII - XIX centuries. The bell tower has 20 bells. On the second
+        floor bell kept "Mazeppa", weighing 13 tons, which was cast at the beginning of the XVIII century. to order and
+        means of Hetman Ivan Mazepa. \n
+
+        Where: Street. Vladimir, 24, \n \n
+
+
+        <b>2. Roller skating at the Mariinsky park</b> \n
+        Mariinsky Park is known not only refined the Mariinsky Palace, but also serves as a meeting place for skaters
+        and skateboarders capital of all ages. Walk along the stadium "Dynamo" with good asphalt is almost entirely in
+        the shade. The second part is a roller skating in the park is located opposite the summer theater, known as the
+        "Shell". Learn roller skating at the Mariinsky park is a pleasure. But even if you do not ride, you can also walk
+        in the shade and relax by the fountain in Mariinsky park. \n
+
+        Where: Mariinsky park \n \n
+
+
+        <b> 3. Make a wish at the fountain in the courtyard of the Cathedral of St. Michael</b> \n
+        St. Michael"s Cathedral was built in the early XII century. in honor of St. Michael the Archangel. In the courtyard
+        of the cathedral it is at first glance inconspicuous small fountain - "Fountain Wish." It is next to it you can make
+        a wish. To do this, wet and pressed a coin to metal protrusions. If the coin is stuck and not fall, your wish will
+        be granted. Some may argue that the secret lies in the strength of the surface tension, but it"s up to you to believe
+        in the mysterious power of the fountain or not. \n
+
+        Where: Street. Three Saints, 8 \n\n
+
+        <b>4. Visit Landscape Alley</b>\n
+
+        This park was first opened in May 2011. It soon became a place that attracts residents and visitors to the capital
+        of Kiev in Ukraine. Here are the creative imagination and artistic compositions most famous and successful
+        Ukrainian designers. Uniqueness, creativity, modernity and beauty - these are some words that can convey only
+        a partial impression of the park. \n
+
+        Where: Street. Vladimir, 2 - Str. Zhytomyrska, 34 \n \n
+
+
+        <b> 5. Walk through Andreevskom</b> \n
+
+        This is one of the oldest streets in Kiev, which connects the lower part of the city with the central
+        part of Podil Detinets city. It is likely that the name of the descent was in the XVIII century. from
+        St. Andrew"s Church, which was built in this place in 1744 - 1754 years. It is also called Kyiv"s
+        Montmartre. Today descent - is the place of the exhibition and sale of paintings and folk art items.
+        At Andrew"s descent can buy souvenirs for the whole family, paintings, antiques and various trinkets. \n
+
+        Where: Metro station "Kontraktova Square" from Kontraktova Square - top;
+        or descend from St. Michael"s Cathedral on the street Tithe \n \n
+
+
+        <b> 6. Visit the deepest metro station in the world - "Arsenal", as well as one of the most beautiful metro
+            station in Europe - "Golden Gate"</b> \n
+
+        In the capital of Ukraine is the deepest station in the world - "Arsenal", whose depth is 105 meters.
+        There is an opinion that it is an absolute world record for metro stations commissioned. "Arsenalnaya"
+        put into operation one of the first - in 1960. It received its name from the nearby factory "Arsenal".
+        So deep-station had to be built because of the difficult terrain near the Dnieper River. \n
+
+
+        In addition, while in Kiev, worth a visit ""olden Gate" - the twenty-ninth station of the Kiev Metro.
+        Tourist publications «Bootsnall Trevel» she was named one of the 15 most beautiful stations in the world,
+        and in 2013 she joined the list of 22 most beautiful stations in Europe by the newspaper "The Daily Telegraph".
+        The station was opened in 1989. In the decoration used mosaic, which tells the story of Kievan Rus.
+        The decoration is dominated by marble and granite. \n
+
+        Where: Metro station "Arsenal", "Golden Gate" \n \n
+
+
+       <b> 7. Admire the views during trips teplokhodnye </b>\n
+        Boat trip on the Dnieper River will allow escape from the daily routine. Admiring the views of the Dnieper
+        you will plunge into distant and memorable times of our history and will be able to admire the view of modern
+        Kiev. The greatness of the buildings of Kiev-Pechersk Lavra, the monument to Volodymyr the Great, Vydubitsky
+        St. Michael"s Monastery, St. Andrew"s Church and the picturesque landscapes of the Dnipro will remain forever
+        in your sweet memories. \n
+        Where: Metro Station "Postal Square", pier №8 \n
+        How much: from 11:00 to 19:00 - 60 USD. After 19:00 - 80 UAH \n \n
+        <b> 8. Visit one of the largest museums in Ukraine</b> \n
+
+        National Museum of the Great Patriotic War of 1941-1945. - One of the largest museums in Ukraine (over 300
+        thousand. Pieces), which covers an area of 10 hectares. The memorial complex was opened in 1981 in memory
+        of the German-Soviet War of 1941-1945. The museum contains a large bowl "Fire of Glory", an exhibition of
+        military equipment and weapons, the main square with the Alley of Hero Cities, and the monument "Motherland"
+        (62 meters). \n
+        Where: Street. Lavra, 24 \n
+        How much: free entrance to the memorial complex \n \n
+        <b> 9. Walk caves Kiev-Pechersk Lavra with a candle </b> \n
+        Kiev-Pechersk Lavra is one of the main spiritual centers of Orthodox Christianity. The monastery was founded
+        in 1051 as a center for spreading the faith, education and spiritual education. On its territory there are
+        more than 100 stone structures, 40 of which - the unique architectural monuments: churches, museums, libraries,
+        and so on. Kiev-Pechersk Lavra is also the burial place of many prominent historical and religious figures. \n
+        Where: Near Caves, the Far Caves \n
+        How much: Admission to the (Lower Lavra): free \n
+        Access to the (Upper Lavra): 15 UAH. \n \n
+        <b> 10. Look at the Golden Gate </b> \n
+        The unique monument of defensive architecture of Kievan Rus XI century., Which was part of the powerful
+        fortifications and level main entrance to Kiev. In 1750, the gate is in an extremely poor condition. In order
+        to preserve the monument from destruction of its mothballed underground. Repair and restoration work carried
+        out in 2007 discovered the contemporaries of this unique monument. Today, anyone can look inside the Golden
+        Gate and learn actually why they are called "gold» \n
+        Where: Street. Vladimir, 40a \n
+        How much: 15 UAH \n
+
+
+        "</string>
+    <string name="tittopten">Top 10 must see in Kiev</string>
 
 </resources>

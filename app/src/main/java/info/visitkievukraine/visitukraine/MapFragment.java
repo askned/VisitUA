@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
@@ -27,7 +28,9 @@ public class MapFragment extends Fragment {
     MapView mMapView;
     private GoogleMap googleMap;
     private final static String LINE = "{~DqzEaM_M~IyA??bC~O";
-            //    private final static String LINE2 = "cp|rHivhyDq@oB`C}IdBmFvDuD|ByFlA_FhA_ETZcA`FlBpA~C~BrCjBnAdAhBfDhBbDZv@JbAIt@u@v@k@fAQxB@|A\dA^n@l@`@z@RnA`@t@dAVnBxA[\?HzA[TY`D]lDc@vDc@xJwA|MG~@jAjGzBv@XtAUhEiHmCiCpV_ASjBoVuK_D_FqAoGoBYxFqB{@RaFcL}D}D{@eCgAmCsD_AHoBeIkCiK";
+
+
+    //  final static String LINE2 = "cp|rHivhyDq@oB`C}IdBmFvDuD|ByFlA_FhA_ETZcA`FlBpA~C~BrCjBnAdAhBfDhBbDZv@JbAIt@u@v@k@fAQxB@|A\dA^n@l@`@z@RnA`@t@dAVnBxA[\?HzA[TY`D]lDc@vDc@xJwA|MG~@jAjGzBv@XtAUhEiHmCiCpV_ASjBoVuK_D_FqAoGoBYxFqB{@RaFcL}D}D{@eCgAmCsD_AHoBeIkCiK";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -74,7 +77,7 @@ public class MapFragment extends Fragment {
         startDemo();
 
 
-
+        //   showPlase(50.271044,30.305148);
 
 
         return v;
@@ -112,4 +115,26 @@ public class MapFragment extends Fragment {
 
          //    googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(-33.8256, 151.2395), 12));
     }
+
+    public void showPlase(Double latit, Double longit) {
+
+        //    CameraPosition cameraPosition = new CameraPosition.Builder()
+        //          .target(new LatLng(latit, longit)).zoom(18).build();
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(latit, longit), 15));
+    }
+
+
+    public void
+    configureMap(GoogleMap map, double lat, double lon) {
+
+//        MapsInitializer.initialize(getActivity());
+//        map.setMyLocationEnabled(true);
+        LatLng latLng = new LatLng(lat, lon);
+        CameraUpdate camera = CameraUpdateFactory.newLatLng(latLng);
+        map.animateCamera(camera);
+
+        MarkerOptions marker6 = new MarkerOptions().position(new LatLng(lat, lon)).title("Отделение №26").snippet("Киев, Бессарабская площадь, дом. 9/1");
+        googleMap.addMarker(marker6);
+    }
+
 }
