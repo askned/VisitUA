@@ -1,7 +1,6 @@
 package info.visitkievukraine.visitukraine;
 
 import android.app.Fragment;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -62,8 +61,8 @@ public class NbuFragment extends Fragment {
         parsbutt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Snackbar.make(getView(), R.string.diferencurs, Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                //  Snackbar.make(getView(), R.string.diferencurs, Snackbar.LENGTH_LONG)
+                //          .setAction("Action", null).show();
                 try {
                     getCurrensyRate();
                 } catch (IOException e) {

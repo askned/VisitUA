@@ -350,5 +350,9 @@ Ilya Repin, Kazimir Malevich, Sergei Prokofiev, Ruslana and many others. \n
 
         "</string>
     <string name="tittopten">Top 10 must see in Kiev</string>
+    <string name="bestrest">Ukrainian cuisine restaurants in Kiev</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

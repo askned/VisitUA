@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 sendEmail();
             }
         });
@@ -119,6 +120,8 @@ public class MainActivity extends AppCompatActivity
             setTitle(getString(R.string.beforArrive));
         } else if (id == R.id.nav_curenccyConvet) {
             setTitle(getString(R.string.curenccyConvet));
+            fab.setVisibility(View.INVISIBLE);
+            fab.setImageResource(R.drawable.calculate);
                     getFragmentManager().beginTransaction().replace(R.id.content_frame, NbuFragment_.builder().build()).commit();
 
         } else if (id == R.id.nav_metromap) {
@@ -174,7 +177,14 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void onClickTopTen(View view) {
+
         getFragmentManager().beginTransaction().replace(R.id.content_frame, TopTenFragment_.builder().build()).commit();
+
+    }
+
+    public void onClickRest(View view) {
+
+        getFragmentManager().beginTransaction().replace(R.id.content_frame, BestRestFragment_.builder().build()).commit();
 
     }
 }

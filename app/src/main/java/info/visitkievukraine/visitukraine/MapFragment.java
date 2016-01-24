@@ -71,13 +71,14 @@ public class MapFragment extends Fragment {
         googleMap.getUiSettings().setZoomControlsEnabled(true);
 
      //   googleMap.addMarker(new MarkerOptions().position(new LatLng(50.271044, 30.305148)).title("123"));
-     //   googleMap.addMarker(new MarkerOptions().position(new LatLng(50.274284, 30.314448)).title("Andreevskii"));
-        // Perform any camera updates here
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.4508204, 30.521478)).title("Maidan Nezalezhnosti"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.4511742, 30.5260292)).title("House with Chimaeras"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.475676, 30.473566)).title("Zoo"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.4484022, 30.5099183)).title("Mother Motherland"));
+        googleMap.addMarker(new MarkerOptions().position(new LatLng(50.4416561, 30.4815839)).title("People's Friendship Arch"));
+
 
         startDemo();
-
-
-        //   showPlase(50.271044,30.305148);
 
 
         return v;

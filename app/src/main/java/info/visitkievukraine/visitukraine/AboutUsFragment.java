@@ -2,6 +2,7 @@ package info.visitkievukraine.visitukraine;
 
 import android.app.Fragment;
 import android.net.Uri;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.facebook.share.model.ShareLinkContent;
@@ -21,6 +22,8 @@ public class AboutUsFragment extends Fragment {
     @ViewById
     TextView textView;
 
+    @ViewById
+    ImageView imagemain;
 
     @ViewById
     ShareButton shareButton;
@@ -32,7 +35,6 @@ public class AboutUsFragment extends Fragment {
     @AfterViews
     void ready() {
 
-
         shareButton.setShareContent(content);
 
         like_view.setObjectIdAndType(
@@ -41,6 +43,8 @@ public class AboutUsFragment extends Fragment {
 
 
 
-// loads html from string and displays cat_pic.png from the app's drawable folder
+
     }
+
+
 }
