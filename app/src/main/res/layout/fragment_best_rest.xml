@@ -15,6 +15,7 @@
         android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         card_view:cardCornerRadius="4dp">
 
 
@@ -36,7 +37,7 @@
                 android:layout_below="@+id/thumbnail"
                 android:maxLines="3"
                 android:padding="8dp"
-                android:text="Pervak Restaurant"
+                android:text="@string/pervak"
                 android:textColor="#222"
                 android:textStyle="bold"
                 android:textSize="22dp" />
@@ -47,7 +48,7 @@
                 android:layout_below="@+id/title"
                 android:maxLines="3"
                 android:padding="8dp"
-                android:text="Address: 2 Rognedinskaya Street, Kiev "
+                android:text="@string/pervak_ad"
                 android:textColor="#666"
                 android:textSize="14dp"
                 android:id="@+id/textView48" />
@@ -70,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="The Pervak restaurant has succeeded in creating the perfect restaurant for tourists and locals alike, yet has not sacrificed its Ukrainian identity. The exterior of the building is splendid, but behind the door beckons a restaurant full of surprises, smiling faces and tasty dishes. It consists of seven distinct dining areas decorated in its own unique style. This is common in Ukrainian restaurants, they are exceptionally good value and a great way to enjoy a quick meal and check out the place. "
+                android:text="@string/pervak_diskr"
                 android:id="@+id/textView51"
                 android:padding="8dp"
                 android:textColor="#666"
@@ -87,6 +88,7 @@
         android:layout_below="@id/card_view"
         android:id="@+id/card_view2"
         android:layout_gravity="center"
+        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         card_view:cardCornerRadius="4dp">
@@ -110,7 +112,7 @@
                 android:layout_below="@+id/thumbnail2"
                 android:maxLines="3"
                 android:padding="8dp"
-                android:text="Restaurant Belveder"
+                android:text="@string/belveder"
                 android:textColor="#222"
                 android:textStyle="bold"
                 android:textSize="22dp" />
@@ -121,7 +123,7 @@
                 android:layout_below="@+id/title2"
                 android:maxLines="3"
                 android:padding="8dp"
-                android:text="Address: Dnieprovsky Spusk1, Kiev"
+                android:text="@string/belveder_ad"
                 android:textColor="#666"
                 android:textSize="14dp"
                 android:id="@+id/textView482" />
@@ -144,12 +146,234 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Worth visiting just for the view.You can see the Dnipro River, Kiev Pechersk Lavra, Podil and the whole of the left bank from the terrace. Generally the food is pretty good but a little pricy for Kiev.English speaking waitresses and very attentive service.Worth treating yourself as it really does offer stunning views over the city."
+                android:text="@string/velveder_disk"
                 android:id="@+id/textView512"
                 android:padding="8dp"
                 android:textColor="#666"
                 android:textSize="14dp"
                 android:layout_below="@+id/textView452"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view3"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_below="@id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/thumbnail3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/carselo" />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail3"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/tsarskoe_selo"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title3"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/carselo_ad"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:id="@+id/textView483" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="http://www.tsarske.kiev.ua/en/"
+                android:id="@+id/textView453"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView483"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/tasrselo_diskr"
+                android:id="@+id/textView514"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView453"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view4"
+        android:layout_gravity="center"
+        android:layout_below="@id/card_view3"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/thumbnail4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/kureni" />
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail4"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/kureni"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title4"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/kureni_disk"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:id="@+id/textView484" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="www.carteblanche.ua/en/resaurants/kureni/"
+                android:id="@+id/textView454"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView484"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/kureni_diskr"
+                android:id="@+id/textView5154"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView454"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view5"
+        android:layout_gravity="center"
+        android:layout_below="@id/card_view4"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/thumbnail5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/puzata" />
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail5"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/puzata"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title5"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="@string/puzata_ad"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:id="@+id/textView485" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="http://www.puzatahata.com.ua/eng"
+                android:id="@+id/textView455"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView485"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/puzata_disk"
+                android:id="@+id/textView5155"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView455"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 

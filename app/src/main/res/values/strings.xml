@@ -32,7 +32,7 @@
     <string name="discount">Discounts</string>
     <string name="цуддиуыщщт">Coming soon!</string>
     <string name="summatex">"Amount: "</string>
-    <string name="one" translatable="false">One</string>
+    <string name="one">One</string>
     <string name="in">In</string>
     <string name="equal" translatable="false">Is Equal To</string>
     <string name="result" translatable="false">Click Calculate for Result</string>
@@ -353,6 +353,21 @@ Ilya Repin, Kazimir Malevich, Sergei Prokofiev, Ruslana and many others. \n
     <string name="bestrest">Ukrainian cuisine restaurants in Kiev</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="pervak">Pervak Restaurant</string>
+    <string name="pervak_ad">Address: 2 Rognedinskaya Street, Kiev</string>
+    <string name="pervak_diskr">The Pervak restaurant has succeeded in creating the perfect restaurant for tourists and locals alike, yet has not sacrificed its Ukrainian identity. The exterior of the building is splendid, but behind the door beckons a restaurant full of surprises, smiling faces and tasty dishes. It consists of seven distinct dining areas decorated in its own unique style. This is common in Ukrainian restaurants, they are exceptionally good value and a great way to enjoy a quick meal and check out the place.</string>
+    <string name="belveder">Restaurant Belveder</string>
+    <string name="belveder_ad">Address: Dnieprovsky Spusk1, Kiev</string>
+    <string name="velveder_disk">Worth visiting just for the view.You can see the Dnipro River, Kiev Pechersk Lavra, Podil and the whole of the left bank from the terrace. Generally the food is pretty good but a little pricy for Kiev.English speaking waitresses and very attentive service.Worth treating yourself as it really does offer stunning views over the city.</string>
+    <string name="tsarskoe_selo">Restaurant Tsarskoye Selo</string>
+    <string name="carselo_ad">Address:42/1 Ivan Mazepa Street, Kiev(near the Kiev Pechersk Lavra)</string>
+    <string name="tasrselo_diskr">The Tsarskoye Selo restaurant is situated near to the Pechersk Lavra and close to the huge Motherland Statue in the heart of historic Kiev. Waiters and waitresses dressed in national costume and an interior that looks like something out of a folk museum. It is unashamedly touristy but somehow manages a kind of classy elegance. Everything is spotlessly clean, the attention to detail, quality of food and standards of service are refreshingly reassuring. It is fair to say that it is a little more expensive than some other restaurants in Kiev, but in comparison to what you would pay back home it will still be a lot cheaper.</string>
+    <string name="kureni">Restaurant Kureni</string>
+    <string name="kureni_disk">Address:4 Parkova Doroha (Park Alley), Kiev</string>
+    <string name="kureni_diskr">Off the beaten track and hidden away and another restaurant worth seeking out.This is a great place to eat during the warmer months. The restaurant Kurenisits on a hill overlooking the islands on the river Dnipro.It is one of the oldest restaurants in Kiev but numerous facelifts and refurbishments have kept Kureni looking fresh and inviting. It is a perfect place to bring a family, there is a small open-air playground for the children and there is plenty of space to run around in. But it is also large enough to tuck yourself away for a meeting or a quite romantic meal.</string>
+    <string name="puzata">Puzata Hata fast food restaurant</string>
+    <string name="puzata_ad">Address:Various locations</string>
+    <string name="puzata_disk">This is a great chain of restaurants if you want to snatch a very cheap tasty snack during the daytime. This is the Ukrainian equivalent to Mc donalds, except thatPuzata Hata is ten times better and much more healthy. Food is served to you by staff behind a counter or from tables and fridges placed along the route to the dining area. Its a bit like an up-market version of school dinners but much more fun. This is popular with students and your average local Ukrainian grabbing a bite to eat before returning back to work. You will not find much English spoken here but pointing,smiling and terrible attempts at speaking Ukrainian/Russian are perfectly acceptable.</string>
 
 </resources>

@@ -98,4 +98,8 @@
         <item name="colorPrimaryDark">@color/amber900</item>
     </style>
 
+    <style name="CardRestoran">
+        <item name="colorPrimary">@color/amber700</item>
+        <item name="colorPrimaryDark">@color/amber900</item>
+    </style>
 </resources>
