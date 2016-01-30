@@ -1,7 +1,159 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent"
     tools:context="info.visitkievukraine.visitukraine.BestRestFragment">
 
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/pervak" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Pervak Restaurant"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Address: 2 Rognedinskaya Street, Kiev "
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:id="@+id/textView48" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="http://www.pervak.kiev.ua/"
+                android:id="@+id/textView45"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView48"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="The Pervak restaurant has succeeded in creating the perfect restaurant for tourists and locals alike, yet has not sacrificed its Ukrainian identity. The exterior of the building is splendid, but behind the door beckons a restaurant full of surprises, smiling faces and tasty dishes. It consists of seven distinct dining areas decorated in its own unique style. This is common in Ukrainian restaurants, they are exceptionally good value and a great way to enjoy a quick meal and check out the place. "
+                android:id="@+id/textView51"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView45"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@id/card_view"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/thumbnail2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/belbeder" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail2"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Restaurant Belveder"
+                android:textColor="#222"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title2"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="Address: Dnieprovsky Spusk1, Kiev"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:id="@+id/textView482" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="http://www.belvedere.kiev.ua/"
+                android:id="@+id/textView452"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView482"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Worth visiting just for the view.You can see the Dnipro River, Kiev Pechersk Lavra, Podil and the whole of the left bank from the terrace. Generally the food is pretty good but a little pricy for Kiev.English speaking waitresses and very attentive service.Worth treating yourself as it really does offer stunning views over the city."
+                android:id="@+id/textView512"
+                android:padding="8dp"
+                android:textColor="#666"
+                android:textSize="14dp"
+                android:layout_below="@+id/textView452"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
 </RelativeLayout>
+</ScrollView>
