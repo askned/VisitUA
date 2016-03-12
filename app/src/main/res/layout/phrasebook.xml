@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Dobraye ootro"
+                android:text="Dobriy ranok"
                 android:id="@+id/textView10" />
 
             <TextView
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Dobriy vyecher"
+                android:text="Dobriy vyechir"
                 android:id="@+id/textView16" />
 
             <TextView
@@ -95,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Zdrastvooyte"
+                android:text="Vitaiu"
                 android:id="@+id/textView20" />
 
             <TextView
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Preevyet"
+                android:text="Preevit"
                 android:id="@+id/textView21" />
 
             <TextView
@@ -132,7 +132,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Rat teebya veedet&apos;"
+                android:text="Rat teebe bachit&apos;"
                 android:id="@+id/textView26" />
 
             <TextView
@@ -150,7 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Kak vas zavoot?"
+                android:text="Yak vas zavaty?"
                 android:id="@+id/textView28" />
 
             <TextView
@@ -168,7 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Meenya zavoot..."
+                android:text="Meene zavaty..."
                 android:id="@+id/textView31" />
 
             <TextView
@@ -186,7 +186,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Spaseeba"
+                android:text="Spaseebi"
                 android:id="@+id/textView34" />
 
             <TextView
@@ -204,7 +204,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Nyezashta"
+                android:text="Nyezasho"
                 android:id="@+id/textView37" />
 
             <TextView
@@ -223,7 +223,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Pazhalooysta"
+                android:text="Buudliaska"
                 android:id="@+id/textView40" />
 
             <TextView
@@ -241,7 +241,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Eezveeneete"
+                android:text="Viebachte"
                 android:id="@+id/textView43" />
 
             <TextView
@@ -260,7 +260,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Paka"
+                android:text="Buuvai"
                 android:id="@+id/textView46" />
 
             <TextView
@@ -279,7 +279,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Vi gavareetye pa angleeskee?"
+                android:text="Vi govoryne po angleeskee?"
                 android:id="@+id/textView49"
                 android:layout_marginRight="4dp" />
 
@@ -299,7 +299,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Ya nee paneemayoo"
+                android:text="Ya nee rozumaioo"
                 android:id="@+id/textView52" />
 
             <TextView
@@ -318,7 +318,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Zapishite, pozalujsta"
+                android:text="Zapishit, budlaaska"
                 android:id="@+id/textView55" />
 
             <TextView
@@ -337,7 +337,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Ja tebiya lublu!"
+                android:text="Ja tebe kohaiuu!"
                 android:id="@+id/textView58" />
 
             <TextView
